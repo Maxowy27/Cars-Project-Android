@@ -2,6 +2,7 @@ package com.example.voiture;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ListView;
 
@@ -41,7 +42,19 @@ public class MainActivity extends AppCompatActivity {
 
         listView.setAdapter(adapterN);
 
+        findViewById(R.id.buttonCabriolet).setOnClickListener(click -> {
+            //Intent intent = new Intent(getApplicationContext(), truc.class);
+            //startActivities(intent);
+        });
+
         //adapterN.addListener(this);
 
     }
+
+    public void onClickCar(Car item, int position){
+        //Intent intent = new Intent(MainActivity.this,)
+        //description voiture
+        //startActivities(intent);
+    }
+
 }

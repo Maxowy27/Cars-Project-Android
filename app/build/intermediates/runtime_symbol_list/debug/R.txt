@@ -2729,6 +2729,7 @@ int drawable ic_mtrl_chip_checked_black 0x7f070091
 int drawable ic_mtrl_chip_checked_circle 0x7f070092
 int drawable ic_mtrl_chip_close_circle 0x7f070093
 int drawable ic_search_black_24 0x7f070094
+int drawable logo3 0x7f0700e0
 int drawable m3_appbar_background 0x7f070095
 int drawable m3_avd_hide_password 0x7f070096
 int drawable m3_avd_show_password 0x7f070097
@@ -2803,10 +2804,15 @@ int drawable notify_panel_notification_icon_bg 0x7f0700db
 int drawable test_level_drawable 0x7f0700dc
 int drawable tooltip_frame_dark 0x7f0700dd
 int drawable tooltip_frame_light 0x7f0700de
+int drawable voiture1 0x7f0700e1
 int id ALT 0x7f080000
 int id BOTTOM_END 0x7f080001
 int id BOTTOM_START 0x7f080002
 int id CTRL 0x7f080003
+int id Cars1 0x7f0801f6
+int id Cars2 0x7f0801f7
+int id Cars3 0x7f0801f8
+int id Cars4 0x7f0801f9
 int id FUNCTION 0x7f080004
 int id META 0x7f080005
 int id NO_DEBUG 0x7f080006
@@ -2983,6 +2989,7 @@ int id endToStart 0x7f0800b0
 int id energy 0x7f0800b1
 int id enterAlways 0x7f0800b2
 int id enterAlwaysCollapsed 0x7f0800b3
+int id euro 0x7f0801fe
 int id exitUntilCollapsed 0x7f0800b4
 int id expand_activities_button 0x7f0800b5
 int id expanded_menu 0x7f0800b6
@@ -3412,6 +3419,7 @@ int layout abc_search_view 0x7f0b0019
 int layout abc_select_dialog_material 0x7f0b001a
 int layout abc_tooltip 0x7f0b001b
 int layout activity_main 0x7f0b001c
+int layout adapter_item 0x7f0b006b
 int layout custom_dialog 0x7f0b001d
 int layout design_bottom_navigation_item 0x7f0b001e
 int layout design_bottom_sheet_dialog 0x7f0b001f

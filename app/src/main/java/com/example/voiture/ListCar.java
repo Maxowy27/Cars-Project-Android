@@ -118,7 +118,7 @@ public class ListCar {
 
         //photo
         String photo = jsonObject.getString("photo");
-        int picture= context.getResources().getIdentifier(photo, "mipmap",  context.getPackageName());
+        int picture= context.getResources().getIdentifier(photo, "drawable",  context.getPackageName());
 
 
         Car p= new Car(brand,model,year,km,gearBox,energy,price,picture);
