@@ -7,30 +7,68 @@
     tools:context=".MainActivity"
     android:orientation="vertical">
 
-    <SearchView
-        android:id="@+id/title"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Bienvenue sur notre application de vente en ligne"
-        android:textSize="20sp"
-        android:gravity="center"/>
-
-    <EditText
-        android:id="@+id/search_box"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Rechercher un produit"
-        android:inputType="text"/>
-
-    <Button
-        android:id="@+id/search_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Rechercher"/>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="50dp">
+        android:layout_height="150dp"
+        android:backgroundTint="#0CA4D3"
+        android:background="@color/black"
+        android:orientation="vertical"
+        >
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            >
+
+        </ImageView>
+
+        <EditText
+            android:id="@+id/search_box"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Rechercher un produit"
+            android:inputType="text"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <Button
+                android:id="@+id/Cars1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#0CA4D3"
+                android:layout_marginHorizontal="8dp"
+                android:text="Cars1"/>
+
+            <Button
+                android:id="@+id/Cars2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#0CA4D3"
+                android:layout_marginHorizontal="8dp"
+                android:text="Cars2"/>
+
+            <Button
+                android:id="@+id/Cars3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#0CA4D3"
+                android:layout_marginHorizontal="8dp"
+                android:text="Cars3"/>
+
+            <Button
+                android:id="@+id/Cars4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#0CA4D3"
+                android:layout_marginHorizontal="8dp"
+                android:text="Cars4"/>
+
+        </LinearLayout>
 
 
 
@@ -43,7 +81,7 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:divider="@android:color/transparent"
-        android:dividerHeight="10dp"/>
+        android:dividerHeight="8dp"/>
 
 
 
