@@ -5,38 +5,74 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.BaseAdapter;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import java.util.List;
 
-public class CarListAdapter extends ArrayAdapter<Car> {
-    private final Context context;
-    private final List<Car> carList;
+public class CarListAdapter extends BaseAdapter {
 
-    public CarListAdapter(Context context, List<Car> carList) {
-        super(context, R.layout.list_item_car, carList);
-        this.context = context;
-        this.carList = carList;
+    private ListCar mListC;
+    private final Context mContext;
+
+    private LayoutInflater mInflater;
+    public CarListAdapter(Context context, ListCar aListC) {
+        mContext = context;
+        mListC = aListC;
+        mInflater = LayoutInflater.from(context);
+    }
+
+    @Override
+    public int getCount() {
+        return mListC.size();
+    }
+
+    @Override
+    public Object getItem(int i) {
+        return mListC.get(i);
+    }
+
+    @Override
+    public long getItemId(int i) {
+        return i;
     }
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+        LinearLayout layoutItem;
 
-        View rowView = convertView;
-        if (rowView == null) {
-            rowView = inflater.inflate(R.layout.list_item_car, parent, false);
+        if (convertView == null){
+            layoutItem = (LinearLayout) mInflater.inflate(R.layout.list_item_car,parent,false);
+        } else {
+            layoutItem = (LinearLayout) convertView;
         }
 
-        TextView makeTextView = rowView.findViewById(R.id.make);
-        TextView modelTextView = rowView.findViewById(R.id.model);
-        TextView yearTextView = rowView.findViewById(R.id.year);
+        //on recup les textview du layout
+        TextView tvBrand = (TextView) layoutItem.findViewById(R.id.brand);
+        TextView tvModel = (TextView) layoutItem.findViewById(R.id.model);
+        TextView tvYear = (TextView) layoutItem.findViewById(R.id.year);
+        TextView tvKm = (TextView) layoutItem.findViewById(R.id.km);
+        TextView tvGearBox = (TextView) layoutItem.findViewById(R.id.gearBox);
+        TextView tvEnergy = (TextView) layoutItem.findViewById(R.id.energy);
+        TextView tvPrice = (TextView) layoutItem.findViewById(R.id.price);
 
-        Car car = carList.get(position);
-        makeTextView.setText(car.getMake());
-        modelTextView.setText(car.getModel());
-        yearTextView.setText(String.valueOf(car.getYear()));
+        ImageView image = (ImageView) layoutItem.findViewById(R.id.picture);
 
-        return rowView;
+        //on remplie les valeurs
+        tvBrand.setText(mListC.get(position).getBrand());
+        tvModel.setText(mListC.get(position).getModel());
+        tvYear.setText(mListC.get(position).getYear());
+        tvKm.setText(mListC.get(position).getKm());
+        tvGearBox.setText(mListC.get(position).getGearBox());
+        tvEnergy.setText(mListC.get(position).getEnergy());
+        tvPrice.setText(mListC.get(position).getPrice());
+
+        image.setImageResource(mListC.get(position).getPicture());
+
+
+        return layoutItem;
+
     }
 }

@@ -1,0 +1,101 @@
+﻿[
+    {
+        "id": "1",
+        "brand": "Ford",
+        "model": "Ranger",
+        "year": "2019",
+        "km": "28000",
+        "gearbox": "Automatique",
+        "energy": "Diesel",
+        "price": "39500",
+        "photo": "car1"
+    },
+    {
+        "id": "2",
+        "brand": "Toyota",
+        "model": "Hilux",
+        "year": "2017",
+        "km": "38000",
+        "gearbox": "Manuelle",
+        "energy": "Diesel",
+        "price": "30500",
+        "photo": "car1"
+    },
+    {
+        "id": "3",
+        "brand": "Ford",
+        "model": "F250",
+        "year": "1970",
+        "km": "180000",
+        "gearbox": "Manuelle",
+        "energy": "Essence",
+        "price": "19000",
+        "photo": "car1"
+    },
+    {
+        "id": "4",
+        "brand": "Nissan",
+        "model": "Navara",
+        "year": "2010",
+        "km": "146890",
+        "gearbox": "Manuelle",
+        "energy": "Diesel",
+        "price": "19900",
+        "photo": "car1"
+    },
+    {
+        "id": "5",
+        "brand": "Dodge",
+        "model": "Ram",
+        "year": "2023",
+        "km": "500",
+        "gearbox": "Automatique",
+        "energy": "Essence",
+        "price": "99900",
+        "photo": "car1"
+    },
+    {
+        "id": "6",
+        "brand": "Mitsubushi",
+        "model": "L200",
+        "year": "2015",
+        "km": "73500",
+        "gearbox": "Manuelle",
+        "energy": "Diesel",
+        "price": "28900",
+        "photo": "car1"
+    },
+    {
+        "id": "7",
+        "brand": "Chevrelot",
+        "model": "Cheyenne",
+        "year": "1988",
+        "km": "145000",
+        "gearbox": "Automatique",
+        "energy": "Essence",
+        "price": "23000",
+        "photo": "car1"
+    },
+    {
+        "id": "8",
+        "brand": "Renault",
+        "model": "Alaskan",
+        "year": "2017",
+        "km": "115000",
+        "gearbox": "Manuelle",
+        "energy": "Diesel",
+        "price": "21800",
+        "photo": "car1"
+    },
+    {
+        "id": "9",
+        "brand": "GMC",
+        "model": "Sierra",
+        "year": "2014",
+        "km": "154800",
+        "gearbox": "Automatique",
+        "energy": "Essence",
+        "price": "36990",
+        "photo": "car1"
+    }
+]

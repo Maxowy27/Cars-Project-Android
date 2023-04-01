@@ -1,0 +1,101 @@
+﻿[
+    {
+        "id": "1",
+        "brand": "Porsche",
+        "model": "911",
+        "year": "2015",
+        "km": "34890",
+        "gearbox": "Automatique",
+        "energy": "Essence",
+        "price": "155890",
+        "photo": "car1"
+    },
+    {
+        "id": "2",
+        "brand": "Mercedes",
+        "model": "Classe E",
+        "year": "2017",
+        "km": "87907",
+        "gearbox": "Automatique",
+        "energy": "Diesel",
+        "price": "49900",
+        "photo": "car1"
+    },
+    {
+        "id": "3",
+        "brand": "Porsche",
+        "model": "718",
+        "year": "2021",
+        "km": "6085",
+        "gearbox": "Automatique",
+        "energy": "Essence",
+        "price": "148990",
+        "photo": "car1"
+    },
+    {
+        "id": "4",
+        "brand": "BMW",
+        "model": "Série 4",
+        "year": "2018",
+        "km": "52000",
+        "gearbox": "Automatique",
+        "energy": "Essence",
+        "price": "36490",
+        "photo": "car1"
+    },
+    {
+        "id": "5",
+        "brand": "Ford",
+        "model": "Mustang",
+        "year": "2017",
+        "km": "69432",
+        "gearbox": "Automatique",
+        "energy": "Essence",
+        "price": "27990",
+        "photo": "car1"
+    },
+    {
+        "id": "6",
+        "brand": "Audi",
+        "model": "A5",
+        "year": "2017",
+        "km": "97000",
+        "gearbox": "Automatique",
+        "energy": "Diesel",
+        "price": "32890",
+        "photo": "car1"
+    },
+    {
+        "id": "7",
+        "brand": "Peugeot",
+        "model": "307",
+        "year": "2006",
+        "km": "112000",
+        "gearbox": "Manuelle",
+        "energy": "Essence",
+        "price": "5500",
+        "photo": "car1"
+    },
+    {
+        "id": "8",
+        "brand": "Volkswagen",
+        "model": "T-Roc",
+        "year": "2022",
+        "km": "6632",
+        "gearbox": "Automatique",
+        "energy": "Essence",
+        "price": "39990",
+        "photo": "car1"
+    },
+    {
+        "id": "9",
+        "brand": "Audi",
+        "model": "A3",
+        "year": "2017",
+        "km": "87300",
+        "gearbox": "Automatique",
+        "energy": "Diesel",
+        "price": "22990",
+        "photo": "car1"
+    }
+]
