@@ -148,7 +148,7 @@ public class ListCar {
     private  String getJSONFromAssetSuv(Context context) { //static
         String json = null;
         try {
-            InputStream is = context.getAssets().open("nouveaute.json");
+            InputStream is = context.getAssets().open("suv.json");
             int size = is.available();
             byte[] buffer = new byte[size];
             is.read(buffer);
@@ -166,7 +166,7 @@ public class ListCar {
     private  String getJSONFromAssetCabriolet(Context context) { //static
         String json = null;
         try {
-            InputStream is = context.getAssets().open("nouveaute.json");
+            InputStream is = context.getAssets().open("cabriolet.json");
             int size = is.available();
             byte[] buffer = new byte[size];
             is.read(buffer);
@@ -184,7 +184,7 @@ public class ListCar {
     private  String getJSONFromAssetPickup(Context context) { //static
         String json = null;
         try {
-            InputStream is = context.getAssets().open("nouveaute.json");
+            InputStream is = context.getAssets().open("pickup.json");
             int size = is.available();
             byte[] buffer = new byte[size];
             is.read(buffer);
