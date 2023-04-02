@@ -9,8 +9,10 @@
         android:layout_width="match_parent"
         android:layout_height="239dp"
         android:src="@drawable/voiture1"
+        android:clickable="true"
         android:layout_marginHorizontal="25dp"
         />
+
 
     <TextView
         android:id="@+id/item_text"
