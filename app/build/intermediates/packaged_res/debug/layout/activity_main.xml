@@ -43,36 +43,29 @@
 
 
             <Button
-                android:id="@+id/Cars1"
+                android:id="@+id/buttonSuv"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="8dp"
                 android:backgroundTint="#0CA4D3"
-                android:text="Cars1" />
+                android:text="Cabriolet" />
 
             <Button
-                android:id="@+id/Cars2"
+                android:id="@+id/buttonCabriolet"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="8dp"
                 android:backgroundTint="#0CA4D3"
-                android:text="Cars2" />
+                android:text="Pick Up" />
 
             <Button
-                android:id="@+id/Cars3"
+                android:id="@+id/buttonPickUp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="8dp"
                 android:backgroundTint="#0CA4D3"
-                android:text="Cars3" />
+                android:text="SUV" />
 
-            <Button
-                android:id="@+id/Cars4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginHorizontal="8dp"
-                android:backgroundTint="#0CA4D3"
-                android:text="Cars4" />
 
         </LinearLayout>
 
@@ -85,7 +78,8 @@
         android:layout_height="10dp"
         android:layout_weight="2"
         android:divider="@android:color/transparent"
-        android:dividerHeight="10dp" />
+        android:dividerHeight="10dp"
+        />
 
 
 </LinearLayout>

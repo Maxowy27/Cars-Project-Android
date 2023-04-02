@@ -1,6 +1,7 @@
 package com.example.voiture;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -9,6 +10,8 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import java.util.ArrayList;
+
 public class CarListAdapter extends BaseAdapter {
 
     private ListCar mListC;
@@ -16,7 +19,7 @@ public class CarListAdapter extends BaseAdapter {
     private LayoutInflater mInflater;
     private ClickableActivity activity;
 
-    public CarListAdapter(Context context, ListCar aListC) {
+    public CarListAdapter(Context context, ListCar aListC, ClickableActivity activity) {
         this.activity = activity;
         mContext = context;
         mListC = aListC;
@@ -70,11 +73,41 @@ public class CarListAdapter extends BaseAdapter {
 
         image.setImageResource(mListC.get(position).getPicture());
 
-        layoutItem.setOnClickListener(v -> activity.onClickCar(mListC.get(position)));
+
+        image.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Car car = mListC.get(position);
+                Intent intent = new Intent(mContext,CarInfo.class);
+                intent.putExtra("car", car);
+                mContext.startActivity(intent);
+            }
+        });
+
+        //layoutItem.setOnClickListener(v -> activity.onClickCar(mListC.get(position)));
+
 
         return layoutItem;
 
     }
+/*
+    private ArrayList<CarListAdapter> mListListener = new ArrayList<CarListAdapter>();
 
+    public void addListener(CarListAdapterListener aListener) {
+        mListListener.add((CarListAdapter) aListener);
+    }
+
+    private void sendListener(Car item, int position){
+        MainActivity activity1 = (MainActivity) g
+        for(int i = mListListener.size()-1; i >= 0; i--) {
+            mListListener.get(i).ici
+        }
+    }
+
+
+    public interface CarListAdapterListener{
+        public void onClickCar(Car item, int position);
+    }
+*/
 
 }

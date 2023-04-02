@@ -2,19 +2,23 @@ package com.example.voiture;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements ClickableActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        AppCompatActivity activity = this;
 
         //recup liste car nouveaute
         ListCar listN = ListCar.getInstance();
@@ -33,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         //listP.constructListPickup(this);
 
         //adapters
-        CarListAdapter adapterN = new CarListAdapter(this,listN);
+        CarListAdapter adapterN = new CarListAdapter(this,listN,null);
         //CarListAdapter adapterS = new CarListAdapter(this,listS);
         //CarListAdapter adapterC = new CarListAdapter(this,listC);
         //CarListAdapter adapterP = new CarListAdapter(this,listP);
@@ -41,20 +45,25 @@ public class MainActivity extends AppCompatActivity {
         ListView listView = (ListView) findViewById(R.id.car_listview);
 
         listView.setAdapter(adapterN);
-
+/*
         findViewById(R.id.buttonCabriolet).setOnClickListener(click -> {
-            //Intent intent = new Intent(getApplicationContext(), truc.class);
-            //startActivities(intent);
+            Intent intent = new Intent(this, classpourchaquetypedevoiture.class);
+            startActivity(intent);
         });
-
+*/
         //adapterN.addListener(this);
 
     }
 
-    public void onClickCar(Car item, int position){
-        //Intent intent = new Intent(MainActivity.this,)
-        //description voiture
-        //startActivities(intent);
+
+    @Override
+    public void onClickCar(Car item) {
+
     }
 
+    @Override
+    public Context getContext() {
+        return null;
+    }
 }
+

@@ -1,24 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_layout"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="wrap_content">
+
 
     <ImageView
-        android:id="@+id/item_image"
+        android:id="@+id/item_picture"
         android:layout_width="match_parent"
         android:layout_height="239dp"
-        android:src="@drawable/voiture1" />
+        android:src="@drawable/voiture1"
+        android:clickable="true"/>
 
-    <TextView
-        android:id="@+id/item_text"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="25sp"
-        android:text="Voiture qui va vite"
-        android:textColor="@color/black"
+        android:orientation="horizontal"
         android:layout_marginHorizontal="15dp"
-        />
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/item_brand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:text="Marque"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/item_model"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="Modèle"
+            android:textSize="16sp" />
+    </LinearLayout>
 
     <TextView
         android:id="@+id/item_price"
@@ -26,73 +43,55 @@
         android:layout_height="wrap_content"
         android:textColor="@color/black"
         android:textSize="20sp"
-        android:text="10000 €"
+        android:text="Prix"
+        android:layout_marginHorizontal="15dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
         android:layout_marginHorizontal="15dp"
-        />
+        android:layout_marginTop="10dp">
 
-    <TextView
-        android:id="@+id/brand"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textStyle="bold"
-        android:text="Voiture qui va vite"
-        android:textSize="16sp" />
+        <TextView
+            android:id="@+id/item_year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Année"
+            android:textSize="16sp" />
 
-    <TextView
-        android:id="@+id/model"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:text="Voiture qui va vite"
-        android:textSize="16sp" />
+        <TextView
+            android:id="@+id/item_km"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="Kilométrage"
+            android:textSize="16sp" />
 
-    <TextView
-        android:id="@+id/year"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:textSize="16sp" />
+        <TextView
+            android:id="@+id/item_gearBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="Boîte de vitesses"
+            android:textSize="16sp" />
 
-    <TextView
-        android:id="@+id/km"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:text="Voiture qui va vite"
-        android:textSize="16sp" />
-
-    <TextView
-        android:id="@+id/gearBox"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:text="Voiture qui va vite"
-        android:textSize="16sp" />
-
-    <TextView
-        android:id="@+id/energy"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:text="Voiture qui va vite"
-        android:textSize="16sp" />
-
-    <TextView
-        android:id="@+id/price"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:text="Voiture qui va vite"
-        android:textSize="16sp" />
+        <TextView
+            android:id="@+id/item_energy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="Énergie"
+            android:textSize="16sp" />
+    </LinearLayout>
 
     <Button
         android:id="@+id/Reserver"
-        android:layout_marginVertical="50dp"
+        android:layout_marginVertical="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="8dp"
         android:backgroundTint="#0CA4D3"
         android:text="Réserver" />
-
 
 </LinearLayout>

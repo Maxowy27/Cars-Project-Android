@@ -11,6 +11,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Voiture"
         tools:targetApi="31">
+        <activity android:name=".CarInfo" />
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
