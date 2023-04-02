@@ -91,7 +91,7 @@
         android:layout_height="wrap_content"
         android:textStyle="bold"
         android:layout_marginStart="20dp"
-        android:text="Marque"
+        android:text="Marque -"
         android:textSize="16sp"
         android:layout_marginVertical="5dp"/>
 
@@ -101,7 +101,7 @@
         android:layout_height="wrap_content"
         android:textStyle="bold"
         android:layout_marginStart="20dp"
-        android:text="Modèle"
+        android:text="Modèle -"
         android:textSize="16sp"
         android:layout_marginVertical="5dp"/>
 
@@ -111,7 +111,7 @@
         android:layout_height="wrap_content"
         android:textStyle="bold"
         android:layout_marginStart="20dp"
-        android:text="Année-modèle"
+        android:text="Année-modèle -"
         android:textSize="16sp"
         android:layout_marginVertical="5dp"/>
 
@@ -121,7 +121,7 @@
         android:layout_height="wrap_content"
         android:textStyle="bold"
         android:layout_marginStart="20dp"
-        android:text="Kilométrage"
+        android:text="Kilométrage -"
         android:textSize="16sp"
         android:layout_marginVertical="5dp"/>
 
@@ -131,7 +131,7 @@
         android:layout_height="wrap_content"
         android:textStyle="bold"
         android:layout_marginStart="20dp"
-        android:text="Boite de vitesse"
+        android:text="Boite de vitesse -"
         android:textSize="16sp"
         android:layout_marginVertical="5dp"/>
 
@@ -141,7 +141,7 @@
         android:layout_height="wrap_content"
         android:textStyle="bold"
         android:layout_marginStart="20dp"
-        android:text="Carburant"
+        android:text="Carburant -"
         android:textSize="16sp"
         android:layout_marginVertical="5dp"/>
 
@@ -151,7 +151,7 @@
         android:layout_height="wrap_content"
         android:textStyle="bold"
         android:layout_marginStart="20dp"
-        android:text="Prix"
+        android:text="Prix -"
         android:textSize="16sp"
         android:layout_marginVertical="5dp"/>
 
