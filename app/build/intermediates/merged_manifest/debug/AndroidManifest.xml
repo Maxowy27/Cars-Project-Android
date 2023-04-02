@@ -26,6 +26,8 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.Voiture" >
+        <activity android:name="com.example.voiture.CarInfo" />
+        <activity android:name="com.example.voiture.SuvActivity" />
         <activity
             android:name="com.example.voiture.MainActivity"
             android:exported="true" >

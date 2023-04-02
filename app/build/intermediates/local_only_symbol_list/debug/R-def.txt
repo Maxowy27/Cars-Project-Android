@@ -17,6 +17,7 @@ id brand
 id buttonCabriolet
 id buttonPickUp
 id buttonSuv
+id carSuv_listview
 id car_listview
 id euro
 id item_brand
@@ -33,6 +34,7 @@ id picture
 id price
 id search_box
 layout activity_main
+layout activity_suv
 layout adapter_item
 layout item_detail
 mipmap ic_launcher

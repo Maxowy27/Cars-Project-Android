@@ -36,6 +36,10 @@
         "source": "C:\\Users\\matty\\.gradle\\daemon\\7.5\\com.example.voiture.app-main-31:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
+        "merged": "C:\\Users\\matty\\.gradle\\daemon\\7.5\\com.example.voiture.app-merged_res-29:\\layout_activity_suv.xml.flat",
+        "source": "C:\\Users\\matty\\.gradle\\daemon\\7.5\\com.example.voiture.app-main-31:\\layout\\activity_suv.xml"
+    },
+    {
         "merged": "C:\\Users\\matty\\.gradle\\daemon\\7.5\\com.example.voiture.app-merged_res-29:\\mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\matty\\.gradle\\daemon\\7.5\\com.example.voiture.app-main-31:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
@@ -50,6 +54,10 @@
     {
         "merged": "C:\\Users\\matty\\.gradle\\daemon\\7.5\\com.example.voiture.app-merged_res-29:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "C:\\Users\\matty\\.gradle\\daemon\\7.5\\com.example.voiture.app-main-31:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.voiture.app-merged_res-29:/layout_activity_suv.xml.flat",
+        "source": "com.example.voiture.app-main-31:/layout/activity_suv.xml"
     },
     {
         "merged": "C:\\Users\\matty\\.gradle\\daemon\\7.5\\com.example.voiture.app-merged_res-29:\\mipmap-hdpi_ic_launcher.webp.flat",
@@ -78,10 +86,6 @@
     {
         "merged": "C:\\Users\\matty\\.gradle\\daemon\\7.5\\com.example.voiture.app-merged_res-29:\\xml_backup_rules.xml.flat",
         "source": "C:\\Users\\matty\\.gradle\\daemon\\7.5\\com.example.voiture.app-main-31:\\xml\\backup_rules.xml"
-    },
-    {
-        "merged": "com.example.voiture.app-merged_res-29:/layout_item_detail.xml.flat",
-        "source": "com.example.voiture.app-main-31:/layout/item_detail.xml"
     },
     {
         "merged": "C:\\Users\\matty\\.gradle\\daemon\\7.5\\com.example.voiture.app-merged_res-29:\\mipmap-xhdpi_ic_launcher_round.webp.flat",

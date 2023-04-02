@@ -45,12 +45,12 @@ public class MainActivity extends AppCompatActivity implements ClickableActivity
         ListView listView = (ListView) findViewById(R.id.car_listview);
 
         listView.setAdapter(adapterN);
-/*
-        findViewById(R.id.buttonCabriolet).setOnClickListener(click -> {
-            Intent intent = new Intent(this, classpourchaquetypedevoiture.class);
+
+        findViewById(R.id.buttonSuv).setOnClickListener(click -> {
+            Intent intent = new Intent(this, SuvActivity.class);
             startActivity(intent);
         });
-*/
+
         //adapterN.addListener(this);
 
     }
