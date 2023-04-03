@@ -33,6 +33,15 @@
                 android:layout_marginHorizontal="0dp"
                 android:src="@drawable/logo3" />
 
+            <Button
+                android:id="@+id/account_button"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="100dp"
+                android:backgroundTint="#0CA4D3"
+
+                />
+
         </LinearLayout>
 
         <HorizontalScrollView
