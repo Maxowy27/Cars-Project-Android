@@ -6,12 +6,20 @@
     android:layout_height="wrap_content">
 
 
-    <ImageView
-        android:id="@+id/item_picture"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="239dp"
-        android:src="@drawable/voiture1"
-        android:clickable="true"/>
+        android:background="@drawable/cabriolet2">
+
+        <Button
+            android:id="@+id/return_button"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="8dp"
+            android:backgroundTint="#0CA4D3"
+            android:text="" />
+
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -37,14 +45,44 @@
             android:textSize="16sp" />
     </LinearLayout>
 
-    <TextView
-        android:id="@+id/item_price"
+
+
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="@color/black"
-        android:textSize="20sp"
-        android:text="Prix"
-        android:layout_marginHorizontal="15dp" />
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/item_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:text="Prix"
+            android:layout_marginHorizontal="15dp" />
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:src="@drawable/paypal1"
+            android:layout_marginEnd="15dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#993DB7D8"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Paiment sécurisé avec PayPal" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -93,5 +131,7 @@
         android:layout_marginHorizontal="8dp"
         android:backgroundTint="#0CA4D3"
         android:text="Réserver" />
+
+
 
 </LinearLayout>
