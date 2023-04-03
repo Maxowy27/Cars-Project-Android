@@ -5,9 +5,12 @@ import android.os.Bundle;
 import android.widget.ListView;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.SearchView;
 
 public class AllActivity extends AppCompatActivity {
 
+    private CarListAdapter adapterA;
+    private ListView listView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,10 +23,10 @@ public class AllActivity extends AppCompatActivity {
         listA.constructListAll(this);
 
 
-        CarListAdapter adapterA = new CarListAdapter(this,listA,null);
+        adapterA = new CarListAdapter(this,listA,null);
 
 
-        ListView listView = (ListView) findViewById(R.id.carAll_listview);
+        listView = (ListView) findViewById(R.id.carAll_listview);
 
         listView.setAdapter(adapterA);
 
@@ -47,6 +50,23 @@ public class AllActivity extends AppCompatActivity {
             Intent intent = new Intent(this, CabrioletActivity.class);
             startActivity(intent);
         });
+        initSearchWidgets();
     }
 
+    private void initSearchWidgets(){
+        SearchView searchView = findViewById(R.id.search_box);
+        searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+            @Override
+            public boolean onQueryTextSubmit(String query) {
+                return false;
+            }
+
+            @Override
+            public boolean onQueryTextChange(String newText) {
+                adapterA.filterAll(newText);
+                adapterA.notifyDataSetChanged();
+                return false;
+            }
+        });
+    }
 }

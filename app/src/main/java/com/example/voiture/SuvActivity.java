@@ -4,15 +4,16 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ListView;
-import android.widget.SearchView;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.SearchView;
 
 import java.util.ArrayList;
 
 public class SuvActivity extends AppCompatActivity implements ClickableActivity{
 
-
+    private CarListAdapter adapterS;
+    private ListView listView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,9 +25,9 @@ public class SuvActivity extends AppCompatActivity implements ClickableActivity{
         ListCar listS = ListCar.getInstance();
         listS.constructListSuv(this);
 
-        CarListAdapter adapterS = new CarListAdapter(this,listS,null);
+        adapterS = new CarListAdapter(this,listS,null);
 
-        ListView listView = (ListView) findViewById(R.id.carSuv_listview);
+        listView = (ListView) findViewById(R.id.carSuv_listview);
 
         listView.setAdapter(adapterS);
 
@@ -49,11 +50,11 @@ public class SuvActivity extends AppCompatActivity implements ClickableActivity{
             Intent intent = new Intent(this, AllActivity.class);
             startActivity(intent);
         });
-
+        initSearchWidgets();
     }
 
 
-        @Override
+    @Override
     public void onClickCar(Car item) {
 
     }
@@ -61,5 +62,22 @@ public class SuvActivity extends AppCompatActivity implements ClickableActivity{
     @Override
     public Context getContext() {
         return null;
+    }
+
+    private void initSearchWidgets() {
+        androidx.appcompat.widget.SearchView searchView = findViewById(R.id.search_box);
+        searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+            @Override
+            public boolean onQueryTextSubmit(String query) {
+                return false;
+            }
+
+            @Override
+            public boolean onQueryTextChange(String newText) {
+                adapterS.filterSuv(newText);
+                adapterS.notifyDataSetChanged();
+                return false;
+            }
+        });
     }
 }

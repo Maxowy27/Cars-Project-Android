@@ -5,9 +5,11 @@ import android.os.Bundle;
 import android.widget.ListView;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.SearchView;
 
 public class PickupActivity extends AppCompatActivity {
-
+    private CarListAdapter adapterP;
+    private ListView listView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -19,9 +21,9 @@ public class PickupActivity extends AppCompatActivity {
         ListCar listP = ListCar.getInstance();
         listP.constructListPickup(this);
 
-        CarListAdapter adapterP = new CarListAdapter(this,listP,null);
+        adapterP = new CarListAdapter(this,listP,null);
 
-        ListView listView = (ListView) findViewById(R.id.carPickup_listview);
+        listView = (ListView) findViewById(R.id.carPickup_listview);
 
         listView.setAdapter(adapterP);
 
@@ -44,6 +46,23 @@ public class PickupActivity extends AppCompatActivity {
             Intent intent = new Intent(this, AllActivity.class);
             startActivity(intent);
         });
+        initSearchWidgets();
+    }
 
+    private void initSearchWidgets(){
+        SearchView searchView = findViewById(R.id.search_box);
+        searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+            @Override
+            public boolean onQueryTextSubmit(String query) {
+                return false;
+            }
+
+            @Override
+            public boolean onQueryTextChange(String newText) {
+                adapterP.filterPickup(newText);
+                adapterP.notifyDataSetChanged();
+                return false;
+            }
+        });
     }
 }

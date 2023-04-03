@@ -26,13 +26,13 @@ public class CarListAdapter extends BaseAdapter {
         mInflater = LayoutInflater.from(context);
     }
 
-    public void filter(String query) {
+    public void filterNouveaute(String query) {
+        mListC.list.clear();
         ArrayList<Car> filteredCars = new ArrayList<>();
-        ArrayList<Car> allCars = mListC.getAllCars(mContext);
+        ArrayList<Car> allCars = mListC.getNouveaute(mContext);
         if (query.isEmpty()) {
             filteredCars.addAll(allCars);
         } else {
-            filteredCars.clear();
             for (Car car : allCars) {
                 if (car.getBrand().toLowerCase().contains(query.toLowerCase())) {
                     filteredCars.add(car);
@@ -41,10 +41,84 @@ public class CarListAdapter extends BaseAdapter {
         }
         mListC.list.clear();
         mListC.list.addAll(filteredCars);
+        System.out.println(mListC.list);
+        notifyDataSetChanged();
+    }
+    public void filterPickup(String query) {
+        mListC.list.clear();
+        ArrayList<Car> filteredCars = new ArrayList<>();
+        ArrayList<Car> allCars = mListC.getPickup(mContext);
+        if (query.isEmpty()) {
+            filteredCars.addAll(allCars);
+        } else {
+            for (Car car : allCars) {
+                if (car.getBrand().toLowerCase().contains(query.toLowerCase())) {
+                    filteredCars.add(car);
+                }
+            }
+        }
+        mListC.list.clear();
+        mListC.list.addAll(filteredCars);
+        System.out.println(mListC.list);
         notifyDataSetChanged();
     }
 
+    public void filterCabriolet(String query) {
+        mListC.list.clear();
+        ArrayList<Car> filteredCars = new ArrayList<>();
+        ArrayList<Car> allCars = mListC.getCabriolet(mContext);
+        if (query.isEmpty()) {
+            filteredCars.addAll(allCars);
+        } else {
+            for (Car car : allCars) {
+                if (car.getBrand().toLowerCase().contains(query.toLowerCase())) {
+                    filteredCars.add(car);
+                }
+            }
+        }
+        mListC.list.clear();
+        mListC.list.addAll(filteredCars);
+        System.out.println(mListC.list);
+        notifyDataSetChanged();
+    }
 
+    public void filterSuv(String query) {
+        mListC.list.clear();
+        ArrayList<Car> filteredCars = new ArrayList<>();
+        ArrayList<Car> allCars = mListC.getSuv(mContext);
+        if (query.isEmpty()) {
+            filteredCars.addAll(allCars);
+        } else {
+            for (Car car : allCars) {
+                if (car.getBrand().toLowerCase().contains(query.toLowerCase())) {
+                    filteredCars.add(car);
+                }
+            }
+        }
+        mListC.list.clear();
+        mListC.list.addAll(filteredCars);
+        System.out.println(mListC.list);
+        notifyDataSetChanged();
+    }
+
+    public void filterAll(String query) {
+        mListC.list.clear();
+        ArrayList<Car> filteredCars = new ArrayList<>();
+        ArrayList<Car> allCars = mListC.getAllCars(mContext);
+        if (query.isEmpty()) {
+            filteredCars.addAll(allCars);
+        } else {
+            for (Car car : allCars) {
+                if (car.getBrand().toLowerCase().contains(query.toLowerCase())) {
+                    filteredCars.add(car);
+                }
+            }
+        }
+        mListC.list.clear();
+        mListC.list.addAll(filteredCars);
+        System.out.println(mListC.list);
+        notifyDataSetChanged();
+    }
     @Override
     public int getCount() {
         return mListC.size();

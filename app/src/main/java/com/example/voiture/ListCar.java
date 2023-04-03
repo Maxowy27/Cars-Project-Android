@@ -272,4 +272,58 @@ public class ListCar {
         }
         return list;
     }
+    public ArrayList<Car> getNouveaute(Context context){
+        try {
+            //pour récup un json
+
+            JSONArray jsonN = new JSONArray(getJSONFromAssetNouveaute(context));
+
+            //recup car
+            for (int i = 0; i < jsonN.length(); i++)
+                list.add(getCarFromJSONObject(jsonN.getJSONObject(i),context));
+
+        } catch (JSONException e) {
+            throw new RuntimeException(e);
+        }
+        return list;
+    }
+    public ArrayList<Car> getSuv(Context context){
+        try {
+            //pour récup un json
+
+            JSONArray jsonS= new JSONArray(getJSONFromAssetSuv(context));
+
+            for (int i = 0; i < jsonS.length(); i++)
+                list.add(getCarFromJSONObject(jsonS.getJSONObject(i),context));
+        } catch (JSONException e) {
+            throw new RuntimeException(e);
+        }
+        return list;
+    }
+    public ArrayList<Car> getCabriolet(Context context){
+        try {
+            JSONArray jsonC = new JSONArray(getJSONFromAssetCabriolet(context));
+
+            for (int i = 0; i < jsonC.length(); i++)
+                list.add(getCarFromJSONObject(jsonC.getJSONObject(i),context));
+
+
+        } catch (JSONException e) {
+            throw new RuntimeException(e);
+        }
+        return list;
+    }
+    public ArrayList<Car> getPickup(Context context){
+        try {
+
+            JSONArray jsonP = new JSONArray(getJSONFromAssetPickup(context));
+
+            for (int i = 0; i < jsonP.length(); i++)
+                list.add(getCarFromJSONObject(jsonP.getJSONObject(i),context));
+
+        } catch (JSONException e) {
+            throw new RuntimeException(e);
+        }
+        return list;
+    }
 }

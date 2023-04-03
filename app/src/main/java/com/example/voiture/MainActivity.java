@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity implements ClickableActivity
 
             @Override
             public boolean onQueryTextChange(String newText) {
-                adapterN.filter(newText);
+                adapterN.filterNouveaute(newText);
                 adapterN.notifyDataSetChanged();
                 return false;
             }
