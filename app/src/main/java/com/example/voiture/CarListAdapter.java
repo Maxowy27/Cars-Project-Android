@@ -26,6 +26,25 @@ public class CarListAdapter extends BaseAdapter {
         mInflater = LayoutInflater.from(context);
     }
 
+    public void filter(String query) {
+        ArrayList<Car> filteredCars = new ArrayList<>();
+        ArrayList<Car> allCars = mListC.getAllCars(mContext);
+        if (query.isEmpty()) {
+            filteredCars.addAll(allCars);
+        } else {
+            filteredCars.clear();
+            for (Car car : allCars) {
+                if (car.getBrand().toLowerCase().contains(query.toLowerCase())) {
+                    filteredCars.add(car);
+                }
+            }
+        }
+        mListC.list.clear();
+        mListC.list.addAll(filteredCars);
+        notifyDataSetChanged();
+    }
+
+
     @Override
     public int getCount() {
         return mListC.size();

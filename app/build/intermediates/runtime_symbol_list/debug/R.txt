@@ -2847,10 +2847,6 @@ int id ALT 0x7f080000
 int id BOTTOM_END 0x7f080001
 int id BOTTOM_START 0x7f080002
 int id CTRL 0x7f080003
-int id Cars1 0x7f080201
-int id Cars2 0x7f080202
-int id Cars3 0x7f080203
-int id Cars4 0x7f080204
 int id FUNCTION 0x7f080004
 int id META 0x7f080005
 int id NO_DEBUG 0x7f080006
@@ -2955,6 +2951,7 @@ int id cache_measures 0x7f080068
 int id callMeasure 0x7f080069
 int id cancel_button 0x7f08006a
 int id carSuv_listview 0x7f08006b
+int id car_listview 0x7f08006c
 int id carryVelocity 0x7f08006d
 int id center 0x7f08006e
 int id centerCrop 0x7f08006f
@@ -3202,7 +3199,6 @@ int id position 0x7f080160
 int id postLayout 0x7f080161
 int id pressed 0x7f080162
 int id price 0x7f080163
-int id products_list 0x7f080205
 int id progress_circular 0x7f080164
 int id progress_horizontal 0x7f080165
 int id radio 0x7f080166

@@ -199,4 +199,32 @@ public class ListCar {
 
     }
 
+    public ArrayList<Car> getAllCars(Context context){
+        try {
+            //pour récup un json
+
+            JSONArray jsonN = new JSONArray(getJSONFromAssetNouveaute(context));
+            JSONArray jsonS= new JSONArray(getJSONFromAssetSuv(context));
+            JSONArray jsonC = new JSONArray(getJSONFromAssetCabriolet(context));
+            JSONArray jsonP = new JSONArray(getJSONFromAssetPickup(context));
+
+
+            //recup car
+            for (int i = 0; i < jsonN.length(); i++)
+                list.add(getCarFromJSONObject(jsonN.getJSONObject(i),context));
+
+            for (int i = 0; i < jsonS.length(); i++)
+                list.add(getCarFromJSONObject(jsonS.getJSONObject(i),context));
+
+            for (int i = 0; i < jsonC.length(); i++)
+                list.add(getCarFromJSONObject(jsonC.getJSONObject(i),context));
+
+            for (int i = 0; i < jsonP.length(); i++)
+                list.add(getCarFromJSONObject(jsonP.getJSONObject(i),context));
+
+        } catch (JSONException e) {
+            throw new RuntimeException(e);
+        }
+        return list;
+    }
 }

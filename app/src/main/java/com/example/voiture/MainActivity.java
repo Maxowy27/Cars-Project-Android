@@ -69,14 +69,8 @@ public class MainActivity extends AppCompatActivity implements ClickableActivity
 
             @Override
             public boolean onQueryTextChange(String newText) {
-                ArrayList<Car> filteredCar = new ArrayList<Car>();
-                for(Car car : listN.list){
-                    if(car.getBrand().toLowerCase().contains(newText.toLowerCase())){
-                        filteredCar.add(car);
-                    }
-                }
-                adapterN = new CarListAdapter(getApplicationContext(),listN,null);
-                listView.setAdapter(adapterN);
+                adapterN.filter(newText);
+                adapterN.notifyDataSetChanged();
                 return false;
             }
         });

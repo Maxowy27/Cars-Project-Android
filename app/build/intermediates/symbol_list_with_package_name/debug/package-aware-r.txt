@@ -2848,10 +2848,6 @@ id ALT
 id BOTTOM_END
 id BOTTOM_START
 id CTRL
-id Cars1
-id Cars2
-id Cars3
-id Cars4
 id FUNCTION
 id META
 id NO_DEBUG
@@ -2956,6 +2952,7 @@ id cache_measures
 id callMeasure
 id cancel_button
 id carSuv_listview
+id car_listview
 id carryVelocity
 id center
 id centerCrop
@@ -3203,7 +3200,6 @@ id position
 id postLayout
 id pressed
 id price
-id products_list
 id progress_circular
 id progress_horizontal
 id radio
