@@ -35,49 +35,51 @@
 
         </LinearLayout>
 
-
-        <LinearLayout
+        <HorizontalScrollView
             android:layout_width="match_parent"
-            android:layout_height="50dp">
+            android:layout_height="wrap_content"
+            android:fillViewport="true">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
 
 
 
-            <Button
-                android:id="@+id/buttonSuv"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginHorizontal="8dp"
-                android:backgroundTint="#0CA4D3"
-                android:text="SUV" />
+                <Button
+                    android:id="@+id/buttonSuv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="8dp"
+                    android:backgroundTint="#0CA4D3"
+                    android:text="SUV" />
 
-            <Button
-                android:id="@+id/buttonCabriolet"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginHorizontal="8dp"
-                android:backgroundTint="#0CA4D3"
-                android:text="Cabriolet" />
+                <Button
+                    android:id="@+id/buttonCabriolet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="8dp"
+                    android:backgroundTint="#0CA4D3"
+                    android:text="Cabriolet" />
 
-            <Button
-                android:id="@+id/buttonPickUp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginHorizontal="8dp"
-                android:backgroundTint="#0CA4D3"
-                android:text="Pickup" />
+                <Button
+                    android:id="@+id/buttonPickUp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="8dp"
+                    android:backgroundTint="#0CA4D3"
+                    android:text="Pickup" />
 
-            <Button
-                android:id="@+id/buttonAll"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginHorizontal="8dp"
-                android:backgroundTint="#0CA4D3"
-                android:text="All" />
-
-
-        </LinearLayout>
+                <Button
+                    android:id="@+id/buttonAll"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="8dp"
+                    android:backgroundTint="#0CA4D3"
+                    android:text="Tout" />
 
 
+            </LinearLayout>
+        </HorizontalScrollView>
     </LinearLayout>
 
     <ListView
