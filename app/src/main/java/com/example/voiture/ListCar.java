@@ -37,7 +37,7 @@ public class ListCar {
     }
 
 
-    public void constructListAll(Context context){
+    public ArrayList<Car> constructListAll(Context context){
         try {
             //pour récup un json
 
@@ -60,9 +60,12 @@ public class ListCar {
             for (int i = 0; i < jsonP.length(); i++)
                 list.add(getCarFromJSONObject(jsonP.getJSONObject(i),context));
 
+
         } catch (JSONException e) {
             throw new RuntimeException(e);
         }
+
+        return list;
     }
 
     public void constructListNouveaute(Context context){

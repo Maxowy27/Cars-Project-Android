@@ -15,6 +15,7 @@
         <activity android:name=".SuvActivity"/>
         <activity android:name=".CabrioletActivity"/>
         <activity android:name=".PickupActivity"/>
+        <activity android:name=".AllActivity"/>
 
         <activity
             android:name=".MainActivity"

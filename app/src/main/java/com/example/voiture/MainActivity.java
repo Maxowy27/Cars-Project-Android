@@ -65,6 +65,11 @@ public class MainActivity extends AppCompatActivity implements ClickableActivity
             startActivity(intent);
         });
 
+        findViewById(R.id.buttonAll).setOnClickListener(click -> {
+            Intent intent = new Intent(this, AllActivity.class);
+            startActivity(intent);
+        });
+
         initSearchWidgets();
     }
 
