@@ -17,6 +17,7 @@ drawable cabriolet7
 drawable cabriolet8
 drawable cabriolet9
 drawable car1
+drawable coldface
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable logo3
@@ -40,6 +41,7 @@ drawable pickup6
 drawable pickup7
 drawable pickup8
 drawable pickup9
+drawable shavedice
 drawable suv1
 drawable suv2
 drawable suv3
@@ -50,6 +52,7 @@ drawable suv7
 drawable suv8
 drawable suv9
 drawable voiture1
+drawable voiturefond2
 id Reserver
 id brand
 id buttonAll

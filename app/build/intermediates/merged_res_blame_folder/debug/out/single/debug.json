@@ -8,6 +8,10 @@
         "source": "com.example.voiture.app-main-31:/drawable/logo3.png"
     },
     {
+        "merged": "com.example.voiture.app-merged_res-29:/drawable_shavedice.png.flat",
+        "source": "com.example.voiture.app-main-31:/drawable/shavedice.png"
+    },
+    {
         "merged": "com.example.voiture.app-merged_res-29:/layout_activity_cabriolet.xml.flat",
         "source": "com.example.voiture.app-main-31:/layout/activity_cabriolet.xml"
     },
@@ -176,6 +180,10 @@
         "source": "com.example.voiture.app-main-31:/drawable/cabriolet6.jpg"
     },
     {
+        "merged": "com.example.voiture.app-merged_res-29:/drawable_coldface.png.flat",
+        "source": "com.example.voiture.app-main-31:/drawable/coldface.png"
+    },
+    {
         "merged": "com.example.voiture.app-merged_res-29:/drawable_suv7.jpg.flat",
         "source": "com.example.voiture.app-main-31:/drawable/suv7.jpg"
     },
@@ -198,6 +206,10 @@
     {
         "merged": "com.example.voiture.app-merged_res-29:/drawable_nouveaute1.jpg.flat",
         "source": "com.example.voiture.app-main-31:/drawable/nouveaute1.jpg"
+    },
+    {
+        "merged": "com.example.voiture.app-merged_res-29:/drawable_voiturefond2.jpg.flat",
+        "source": "com.example.voiture.app-main-31:/drawable/voiturefond2.jpg"
     },
     {
         "merged": "com.example.voiture.app-merged_res-29:/layout_activity_pickup.xml.flat",
