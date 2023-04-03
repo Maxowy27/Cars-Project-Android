@@ -32,6 +32,7 @@
         <activity android:name="com.example.voiture.PickupActivity" />
         <activity android:name="com.example.voiture.AllActivity" />
         <activity android:name="com.example.voiture.NouveauteActivity" />
+        <activity android:name="com.example.voiture.AccountActivity" />
         <activity
             android:name="com.example.voiture.MainActivity"
             android:exported="true" >

@@ -8,6 +8,7 @@ color teal_200
 color teal_700
 color white
 drawable arrowleft
+drawable arrowleft2
 drawable cabriolet1
 drawable cabriolet2
 drawable cabriolet3
@@ -53,6 +54,7 @@ drawable suv7
 drawable suv8
 drawable suv9
 drawable user
+drawable user2
 drawable voiture1
 drawable voiturefond2
 id Reserver

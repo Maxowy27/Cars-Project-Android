@@ -66,6 +66,11 @@ public class NouveauteActivity extends AppCompatActivity implements ClickableAct
             startActivity(intent);
         });
 
+        findViewById(R.id.account_button).setOnClickListener(click -> {
+            Intent intent = new Intent(this, AccountActivity.class);
+            startActivity(intent);
+        });
+
         initSearchWidgets();
     }
 

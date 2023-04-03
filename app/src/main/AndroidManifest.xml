@@ -17,6 +17,7 @@
         <activity android:name=".PickupActivity"/>
         <activity android:name=".AllActivity"/>
         <activity android:name=".NouveauteActivity"/>
+        <activity android:name=".AccountActivity"/>
 
         <activity
             android:name=".MainActivity"

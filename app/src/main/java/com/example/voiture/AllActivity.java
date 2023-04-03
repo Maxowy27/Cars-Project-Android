@@ -50,6 +50,11 @@ public class AllActivity extends AppCompatActivity {
             Intent intent = new Intent(this, CabrioletActivity.class);
             startActivity(intent);
         });
+
+        findViewById(R.id.account_button).setOnClickListener(click -> {
+            Intent intent = new Intent(this, AccountActivity.class);
+            startActivity(intent);
+        });
         initSearchWidgets();
     }
 
