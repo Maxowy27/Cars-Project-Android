@@ -43,12 +43,12 @@
 
 
             <Button
-                android:id="@+id/buttonSuv"
+                android:id="@+id/buttonNouveaute"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="8dp"
                 android:backgroundTint="#0CA4D3"
-                android:text="Cabriolet" />
+                android:text="Nouveauté" />
 
             <Button
                 android:id="@+id/buttonCabriolet"
@@ -56,7 +56,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="8dp"
                 android:backgroundTint="#0CA4D3"
-                android:text="Pick Up" />
+                android:text="Cabriolet" />
 
             <Button
                 android:id="@+id/buttonPickUp"
@@ -64,7 +64,15 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="8dp"
                 android:backgroundTint="#0CA4D3"
-                android:text="SUV" />
+                android:text="Pick Up" />
+
+            <Button
+                android:id="@+id/buttonAll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="8dp"
+                android:backgroundTint="#0CA4D3"
+                android:text="All" />
 
 
         </LinearLayout>

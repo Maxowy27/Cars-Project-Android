@@ -52,9 +52,14 @@ drawable suv9
 drawable voiture1
 id Reserver
 id brand
+id buttonAll
 id buttonCabriolet
+id buttonNouveaute
 id buttonPickUp
 id buttonSuv
+id carAll_listview
+id carCabriolet_listview
+id carPickup_listview
 id carSuv_listview
 id car_listview
 id euro
@@ -71,7 +76,10 @@ id model
 id picture
 id price
 id search_box
+layout activity_all
+layout activity_cabriolet
 layout activity_main
+layout activity_pickup
 layout activity_suv
 layout adapter_item
 layout item_detail

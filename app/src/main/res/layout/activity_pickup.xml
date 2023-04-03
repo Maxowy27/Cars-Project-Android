@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    tools:context=".PickupActivity"
     android:orientation="vertical">
 
 
@@ -20,12 +20,12 @@
             android:layout_width="match_parent"
             android:layout_height="50dp">
 
-        <androidx.appcompat.widget.SearchView
-            android:id="@+id/search_box"
-            android:layout_width="170dp"
-            android:layout_height="wrap_content"
-            android:hint="Rechercher un produit"
-            android:inputType="text" />
+            <SearchView
+                android:id="@+id/search_box"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:hint="Rechercher un produit"
+                android:inputType="text" />
 
             <ImageView
                 android:layout_width="75dp"
@@ -41,6 +41,14 @@
             android:layout_height="50dp">
 
 
+
+            <Button
+                android:id="@+id/buttonNouveaute"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="8dp"
+                android:backgroundTint="#0CA4D3"
+                android:text="Nouveauté" />
 
             <Button
                 android:id="@+id/buttonSuv"
@@ -59,20 +67,13 @@
                 android:text="Cabriolet" />
 
             <Button
-                android:id="@+id/buttonPickUp"
+                android:id="@+id/buttonAll"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="8dp"
                 android:backgroundTint="#0CA4D3"
-                android:text="Pickup" />
+                android:text="All" />
 
-            <Button
-                android:id="@+id/Cars4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginHorizontal="8dp"
-                android:backgroundTint="#0CA4D3"
-                android:text="Cars4" />
 
         </LinearLayout>
 
@@ -80,7 +81,7 @@
     </LinearLayout>
 
     <ListView
-        android:id="@+id/car_listview"
+        android:id="@+id/carPickup_listview"
         android:layout_width="match_parent"
         android:layout_height="10dp"
         android:layout_weight="2"

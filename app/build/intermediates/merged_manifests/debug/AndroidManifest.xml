@@ -28,6 +28,9 @@
         android:theme="@style/Theme.Voiture" >
         <activity android:name="com.example.voiture.CarInfo" />
         <activity android:name="com.example.voiture.SuvActivity" />
+        <activity android:name="com.example.voiture.CabrioletActivity" />
+        <activity android:name="com.example.voiture.PickupActivity" />
+        <activity android:name="com.example.voiture.AllActivity" />
         <activity
             android:name="com.example.voiture.MainActivity"
             android:exported="true" >
