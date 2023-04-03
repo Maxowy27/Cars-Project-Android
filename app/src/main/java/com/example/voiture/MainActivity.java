@@ -55,7 +55,16 @@ public class MainActivity extends AppCompatActivity implements ClickableActivity
             startActivity(intent);
         });
 
-        //adapterN.addListener(this);
+        findViewById(R.id.buttonCabriolet).setOnClickListener(click -> {
+            Intent intent = new Intent(this, CabrioletActivity.class);
+            startActivity(intent);
+        });
+
+        findViewById(R.id.buttonPickUp).setOnClickListener(click -> {
+            Intent intent = new Intent(this, PickupActivity.class);
+            startActivity(intent);
+        });
+
         initSearchWidgets();
     }
 

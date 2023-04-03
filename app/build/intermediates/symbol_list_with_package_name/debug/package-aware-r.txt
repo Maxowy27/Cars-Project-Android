@@ -2848,10 +2848,6 @@ id ALT
 id BOTTOM_END
 id BOTTOM_START
 id CTRL
-id Cars1
-id Cars2
-id Cars3
-id Cars4
 id FUNCTION
 id META
 id NO_DEBUG
@@ -2949,13 +2945,17 @@ id bounceEnd
 id bounceStart
 id brand
 id buttonCabriolet
+id buttonNouveaute
 id buttonPanel
 id buttonPickUp
 id buttonSuv
 id cache_measures
 id callMeasure
 id cancel_button
+id carCabriolet_listview
+id carPickup_listview
 id carSuv_listview
+id car_listview
 id carryVelocity
 id center
 id centerCrop
@@ -3203,7 +3203,6 @@ id position
 id postLayout
 id pressed
 id price
-id products_list
 id progress_circular
 id progress_horizontal
 id radio
@@ -3467,7 +3466,9 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_cabriolet
 layout activity_main
+layout activity_pickup
 layout activity_suv
 layout adapter_item
 layout custom_dialog

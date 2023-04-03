@@ -1,6 +1,7 @@
 package com.example.voiture;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ListView;
 import android.widget.SearchView;
@@ -28,6 +29,21 @@ public class SuvActivity extends AppCompatActivity implements ClickableActivity{
         ListView listView = (ListView) findViewById(R.id.carSuv_listview);
 
         listView.setAdapter(adapterS);
+
+        findViewById(R.id.buttonNouveaute).setOnClickListener(click -> {
+            Intent intent = new Intent(this, MainActivity.class);
+            startActivity(intent);
+        });
+
+        findViewById(R.id.buttonCabriolet).setOnClickListener(click -> {
+            Intent intent = new Intent(this, CabrioletActivity.class);
+            startActivity(intent);
+        });
+
+        findViewById(R.id.buttonPickUp).setOnClickListener(click -> {
+            Intent intent = new Intent(this, PickupActivity.class);
+            startActivity(intent);
+        });
 
     }
 

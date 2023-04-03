@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CabrioletActivity"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/black"
+        android:backgroundTint="#3DB7D8"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <SearchView
+                android:id="@+id/search_box"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:hint="Rechercher un produit"
+                android:inputType="text" />
+
+            <ImageView
+                android:layout_width="75dp"
+                android:layout_height="49dp"
+                android:layout_marginHorizontal="0dp"
+                android:src="@drawable/logo3" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+
+
+            <Button
+                android:id="@+id/buttonNouveaute"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="8dp"
+                android:backgroundTint="#0CA4D3"
+                android:text="Nouveauté" />
+
+            <Button
+                android:id="@+id/buttonSuv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="8dp"
+                android:backgroundTint="#0CA4D3"
+                android:text="SUV" />
+
+            <Button
+                android:id="@+id/buttonPickUp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="8dp"
+                android:backgroundTint="#0CA4D3"
+                android:text="Pick Up" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/carCabriolet_listview"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_weight="2"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="10dp"
+        />
+
+
+</LinearLayout>

@@ -180,6 +180,10 @@
         "source": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-main-31:/drawable/nouveaute5.jpg"
     },
     {
+        "merged": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-merged_res-29:/layout_activity_cabriolet.xml.flat",
+        "source": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-main-31:/layout/activity_cabriolet.xml"
+    },
+    {
         "merged": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-merged_res-29:/mipmap-xxxhdpi_ic_launcher.webp.flat",
         "source": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-main-31:/mipmap-xxxhdpi/ic_launcher.webp"
     },
@@ -192,10 +196,6 @@
         "source": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-main-31:/drawable/cabriolet5.jpg"
     },
     {
-        "merged": "com.example.voiture.app-merged_res-29:/layout_activity_main.xml.flat",
-        "source": "com.example.voiture.app-main-31:/layout/activity_main.xml"
-    },
-    {
         "merged": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-merged_res-29:/drawable_suv5.jpg.flat",
         "source": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-main-31:/drawable/suv5.jpg"
     },
@@ -204,8 +204,16 @@
         "source": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-main-31:/drawable/paypal.png"
     },
     {
+        "merged": "com.example.voiture.app-merged_res-29:/layout_activity_pickup.xml.flat",
+        "source": "com.example.voiture.app-main-31:/layout/activity_pickup.xml"
+    },
+    {
         "merged": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-merged_res-29:/mipmap-anydpi-v33_ic_launcher.xml.flat",
         "source": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-main-31:/mipmap-anydpi-v33/ic_launcher.xml"
+    },
+    {
+        "merged": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-merged_res-29:/layout_activity_pickup.xml.flat",
+        "source": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-main-31:/layout/activity_pickup.xml"
     },
     {
         "merged": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-merged_res-29:/drawable_nouveaute8.jpg.flat",
