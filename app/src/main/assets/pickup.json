@@ -8,7 +8,7 @@
         "gearbox": "Automatique",
         "energy": "Diesel",
         "price": "39500",
-        "photo": "car1"
+        "photo": "pickup1"
     },
     {
         "id": "2",
@@ -19,7 +19,7 @@
         "gearbox": "Manuelle",
         "energy": "Diesel",
         "price": "30500",
-        "photo": "car1"
+        "photo": "pickup2"
     },
     {
         "id": "3",
@@ -30,7 +30,7 @@
         "gearbox": "Manuelle",
         "energy": "Essence",
         "price": "19000",
-        "photo": "car1"
+        "photo": "pickup3"
     },
     {
         "id": "4",
@@ -41,7 +41,7 @@
         "gearbox": "Manuelle",
         "energy": "Diesel",
         "price": "19900",
-        "photo": "car1"
+        "photo": "pickup4"
     },
     {
         "id": "5",
@@ -52,7 +52,7 @@
         "gearbox": "Automatique",
         "energy": "Essence",
         "price": "99900",
-        "photo": "car1"
+        "photo": "pickup5"
     },
     {
         "id": "6",
@@ -63,7 +63,7 @@
         "gearbox": "Manuelle",
         "energy": "Diesel",
         "price": "28900",
-        "photo": "car1"
+        "photo": "pickup6"
     },
     {
         "id": "7",
@@ -74,7 +74,7 @@
         "gearbox": "Automatique",
         "energy": "Essence",
         "price": "23000",
-        "photo": "car1"
+        "photo": "pickup7"
     },
     {
         "id": "8",
@@ -85,7 +85,7 @@
         "gearbox": "Manuelle",
         "energy": "Diesel",
         "price": "21800",
-        "photo": "car1"
+        "photo": "pickup8"
     },
     {
         "id": "9",
@@ -96,6 +96,6 @@
         "gearbox": "Automatique",
         "energy": "Essence",
         "price": "36990",
-        "photo": "car1"
+        "photo": "pickup9"
     }
 ]

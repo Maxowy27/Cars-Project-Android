@@ -8,7 +8,7 @@
         "gearbox": "Automatique",
         "energy": "Essence",
         "price": "155890",
-        "photo": "car1"
+        "photo": "cabriolet1"
     },
     {
         "id": "2",
@@ -19,7 +19,7 @@
         "gearbox": "Automatique",
         "energy": "Diesel",
         "price": "49900",
-        "photo": "car1"
+        "photo": "cabriolet2"
     },
     {
         "id": "3",
@@ -30,7 +30,7 @@
         "gearbox": "Automatique",
         "energy": "Essence",
         "price": "148990",
-        "photo": "car1"
+        "photo": "cabriolet3"
     },
     {
         "id": "4",
@@ -41,7 +41,7 @@
         "gearbox": "Automatique",
         "energy": "Essence",
         "price": "36490",
-        "photo": "car1"
+        "photo": "cabriolet4"
     },
     {
         "id": "5",
@@ -52,7 +52,7 @@
         "gearbox": "Automatique",
         "energy": "Essence",
         "price": "27990",
-        "photo": "car1"
+        "photo": "cabriolet5"
     },
     {
         "id": "6",
@@ -63,7 +63,7 @@
         "gearbox": "Automatique",
         "energy": "Diesel",
         "price": "32890",
-        "photo": "car1"
+        "photo": "cabriolet6"
     },
     {
         "id": "7",
@@ -74,7 +74,7 @@
         "gearbox": "Manuelle",
         "energy": "Essence",
         "price": "5500",
-        "photo": "car1"
+        "photo": "cabriolet7"
     },
     {
         "id": "8",
@@ -85,7 +85,7 @@
         "gearbox": "Automatique",
         "energy": "Essence",
         "price": "39990",
-        "photo": "car1"
+        "photo": "cabriolet8"
     },
     {
         "id": "9",
@@ -96,6 +96,6 @@
         "gearbox": "Automatique",
         "energy": "Diesel",
         "price": "22990",
-        "photo": "car1"
+        "photo": "cabriolet9"
     }
 ]

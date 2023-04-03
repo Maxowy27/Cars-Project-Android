@@ -8,7 +8,7 @@
         "gearbox": "Manuelle",
         "energy": "Diesel",
         "price": "4490",
-        "photo": "car1"
+        "photo": "nouveaute1"
     },
     {
         "id": "2",
@@ -19,7 +19,7 @@
         "gearbox": "Manuelle",
         "energy": "Essence",
         "price": "1300",
-        "photo": "voiture1"
+        "photo": "nouveaute2"
     },
     {
         "id": "3",
@@ -30,7 +30,7 @@
         "gearbox": "Automatique",
         "energy": "Electrique",
         "price": "26000",
-        "photo": "car1"
+        "photo": "nouveaute3"
     },
     {
         "id": "4",
@@ -41,7 +41,7 @@
         "gearbox": "Manuelle",
         "energy": "Diesel",
         "price": "1200",
-        "photo": "car1"
+        "photo": "nouveaute4"
     },
     {
         "id": "5",
@@ -52,7 +52,7 @@
         "gearbox": "Manuelle",
         "energy": "Essence",
         "price": "13000",
-        "photo": "car1"
+        "photo": "nouveaute5"
     },
     {
         "id": "6",
@@ -63,7 +63,7 @@
         "gearbox": "Manuelle",
         "energy": "Essence",
         "price": "2200",
-        "photo": "car1"
+        "photo": "nouveaute6"
     },
     {
         "id": "7",
@@ -74,7 +74,7 @@
         "gearbox": "Automatique",
         "energy": "Diesel",
         "price": "21300",
-        "photo": "car1"
+        "photo": "nouveaute7"
     },
     {
         "id": "8",
@@ -85,7 +85,7 @@
         "gearbox": "Automatique",
         "energy": "Diesel",
         "price": "20900",
-        "photo": "car1"
+        "photo": "nouveaute8"
     },
     {
         "id": "9",
@@ -96,6 +96,6 @@
         "gearbox": "Automatique",
         "energy": "Diesel",
         "price": "24999",
-        "photo": "car1"
+        "photo": "nouveaute9"
     }
 ]

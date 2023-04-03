@@ -8,7 +8,7 @@
         "gearbox": "Manuelle",
         "energy": "Essence",
         "price": "19990",
-        "photo": "car1"
+        "photo": "suv1"
     },
     {
         "id": "2",
@@ -19,7 +19,7 @@
         "gearbox": "Manuelle",
         "energy": "Essence",
         "price": "26490",
-        "photo": "car1"
+        "photo": "suv2"
     },
     {
         "id": "3",
@@ -30,7 +30,7 @@
         "gearbox": "Automatique",
         "energy": "Essence",
         "price": "25370",
-        "photo": "car1"
+        "photo": "suv3"
     },
     {
         "id": "4",
@@ -41,7 +41,7 @@
         "gearbox": "Manuelle",
         "energy": "Essence",
         "price": "19990",
-        "photo": "car1"
+        "photo": "suv4"
     },
     {
         "id": "5",
@@ -52,7 +52,7 @@
         "gearbox": "Manuelle",
         "energy": "Diesel",
         "price": "10990",
-        "photo": "car1"
+        "photo": "suv5"
     },
     {
         "id": "6",
@@ -63,7 +63,7 @@
         "gearbox": "Automatique",
         "energy": "Essence",
         "price": "30990",
-        "photo": "car1"
+        "photo": "suv6"
     },
     {
         "id": "7",
@@ -74,7 +74,7 @@
         "gearbox": "Automatique",
         "energy": "Hybride",
         "price": "31990",
-        "photo": "car1"
+        "photo": "suv7"
     },
     {
         "id": "8",
@@ -85,7 +85,7 @@
         "gearbox": "Automatique",
         "energy": "Essence",
         "price": "29990",
-        "photo": "car1"
+        "photo": "suv8"
     },
     {
         "id": "9",
@@ -96,6 +96,6 @@
         "gearbox": "Automatique",
         "energy": "Diesel",
         "price": "32790",
-        "photo": "car1"
+        "photo": "suv9"
     }
 ]

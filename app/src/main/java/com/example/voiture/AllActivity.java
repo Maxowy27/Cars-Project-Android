@@ -43,6 +43,10 @@ public class AllActivity extends AppCompatActivity {
             startActivity(intent);
         });
 
+        findViewById(R.id.buttonCabriolet).setOnClickListener(click -> {
+            Intent intent = new Intent(this, CabrioletActivity.class);
+            startActivity(intent);
+        });
     }
 
 }
