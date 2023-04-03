@@ -20,12 +20,12 @@
             android:layout_width="match_parent"
             android:layout_height="50dp">
 
-        <SearchView
-            android:id="@+id/search_box"
-            android:layout_width="170dp"
-            android:layout_height="wrap_content"
-            android:hint="Rechercher un produit"
-            android:inputType="text" />
+            <SearchView
+                android:id="@+id/search_box"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:hint="Rechercher un produit"
+                android:inputType="text" />
 
             <ImageView
                 android:layout_width="75dp"
@@ -43,29 +43,36 @@
 
 
             <Button
-                android:id="@+id/buttonSuv"
+                android:id="@+id/Cars1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="8dp"
                 android:backgroundTint="#0CA4D3"
-                android:text="SUV" />
+                android:text="Cars1" />
 
             <Button
-                android:id="@+id/buttonCabriolet"
+                android:id="@+id/Cars2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="8dp"
                 android:backgroundTint="#0CA4D3"
-                android:text="Cabriolet" />
+                android:text="Cars2" />
 
             <Button
-                android:id="@+id/buttonPickUp"
+                android:id="@+id/Cars3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="8dp"
                 android:backgroundTint="#0CA4D3"
-                android:text="Pickup" />
+                android:text="Cars3" />
 
+            <Button
+                android:id="@+id/Cars4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="8dp"
+                android:backgroundTint="#0CA4D3"
+                android:text="Cars4" />
 
         </LinearLayout>
 
@@ -73,7 +80,7 @@
     </LinearLayout>
 
     <ListView
-        android:id="@+id/car_listview"
+        android:id="@+id/products_list"
         android:layout_width="match_parent"
         android:layout_height="10dp"
         android:layout_weight="2"

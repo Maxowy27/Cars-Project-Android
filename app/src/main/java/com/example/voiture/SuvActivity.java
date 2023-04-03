@@ -3,10 +3,14 @@ package com.example.voiture;
 import android.content.Context;
 import android.os.Bundle;
 import android.widget.ListView;
+import android.widget.SearchView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import java.util.ArrayList;
+
 public class SuvActivity extends AppCompatActivity implements ClickableActivity{
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +30,7 @@ public class SuvActivity extends AppCompatActivity implements ClickableActivity{
         listView.setAdapter(adapterS);
 
     }
+
 
         @Override
     public void onClickCar(Car item) {

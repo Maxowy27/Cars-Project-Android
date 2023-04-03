@@ -1,106 +1,254 @@
 [
     {
-        "merged": "C:\\Users\\matty\\.gradle\\daemon\\7.5\\com.example.voiture.app-merged_res-29:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\matty\\.gradle\\daemon\\7.5\\com.example.voiture.app-main-31:\\layout\\activity_main.xml"
+        "merged": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-merged_res-29:/layout_adapter_item.xml.flat",
+        "source": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-main-31:/layout/adapter_item.xml"
     },
     {
-        "merged": "C:\\Users\\matty\\.gradle\\daemon\\7.5\\com.example.voiture.app-merged_res-29:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\matty\\.gradle\\daemon\\7.5\\com.example.voiture.app-main-31:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-merged_res-29:/layout_activity_main.xml.flat",
+        "source": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-main-31:/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\matty\\.gradle\\daemon\\7.5\\com.example.voiture.app-merged_res-29:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\matty\\.gradle\\daemon\\7.5\\com.example.voiture.app-main-31:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-merged_res-29:/drawable_pickup9.jpg.flat",
+        "source": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-main-31:/drawable/pickup9.jpg"
     },
     {
-        "merged": "C:\\Users\\matty\\.gradle\\daemon\\7.5\\com.example.voiture.app-merged_res-29:\\drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\matty\\.gradle\\daemon\\7.5\\com.example.voiture.app-main-31:\\drawable-v24\\ic_launcher_foreground.xml"
+        "merged": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-merged_res-29:/drawable_cabriolet4.jpg.flat",
+        "source": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-main-31:/drawable/cabriolet4.jpg"
     },
     {
-        "merged": "C:\\Users\\matty\\.gradle\\daemon\\7.5\\com.example.voiture.app-merged_res-29:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\matty\\.gradle\\daemon\\7.5\\com.example.voiture.app-main-31:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-merged_res-29:/drawable_ic_launcher_background.xml.flat",
+        "source": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-main-31:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\matty\\.gradle\\daemon\\7.5\\com.example.voiture.app-merged_res-29:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\matty\\.gradle\\daemon\\7.5\\com.example.voiture.app-main-31:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-merged_res-29:/drawable_suv6.jpg.flat",
+        "source": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-main-31:/drawable/suv6.jpg"
     },
     {
-        "merged": "C:\\Users\\matty\\.gradle\\daemon\\7.5\\com.example.voiture.app-merged_res-29:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\matty\\.gradle\\daemon\\7.5\\com.example.voiture.app-main-31:\\xml\\data_extraction_rules.xml"
+        "merged": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-merged_res-29:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-main-31:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\matty\\.gradle\\daemon\\7.5\\com.example.voiture.app-merged_res-29:\\drawable_voiture1.jpg.flat",
-        "source": "C:\\Users\\matty\\.gradle\\daemon\\7.5\\com.example.voiture.app-main-31:\\drawable\\voiture1.jpg"
+        "merged": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-merged_res-29:/drawable_suv2.jpg.flat",
+        "source": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-main-31:/drawable/suv2.jpg"
     },
     {
-        "merged": "C:\\Users\\matty\\.gradle\\daemon\\7.5\\com.example.voiture.app-merged_res-29:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\matty\\.gradle\\daemon\\7.5\\com.example.voiture.app-main-31:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-merged_res-29:/drawable_cabriolet8.jpg.flat",
+        "source": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-main-31:/drawable/cabriolet8.jpg"
     },
     {
-        "merged": "C:\\Users\\matty\\.gradle\\daemon\\7.5\\com.example.voiture.app-merged_res-29:\\layout_activity_suv.xml.flat",
-        "source": "C:\\Users\\matty\\.gradle\\daemon\\7.5\\com.example.voiture.app-main-31:\\layout\\activity_suv.xml"
+        "merged": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-merged_res-29:/drawable_pickup2.jpg.flat",
+        "source": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-main-31:/drawable/pickup2.jpg"
     },
     {
-        "merged": "C:\\Users\\matty\\.gradle\\daemon\\7.5\\com.example.voiture.app-merged_res-29:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\matty\\.gradle\\daemon\\7.5\\com.example.voiture.app-main-31:\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-merged_res-29:/drawable_car1.jpg.flat",
+        "source": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-main-31:/drawable/car1.jpg"
     },
     {
-        "merged": "C:\\Users\\matty\\.gradle\\daemon\\7.5\\com.example.voiture.app-merged_res-29:\\drawable_logo3.png.flat",
-        "source": "C:\\Users\\matty\\.gradle\\daemon\\7.5\\com.example.voiture.app-main-31:\\drawable\\logo3.png"
+        "merged": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-merged_res-29:/drawable_nouveaute7.jpg.flat",
+        "source": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-main-31:/drawable/nouveaute7.jpg"
     },
     {
-        "merged": "C:\\Users\\matty\\.gradle\\daemon\\7.5\\com.example.voiture.app-merged_res-29:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\matty\\.gradle\\daemon\\7.5\\com.example.voiture.app-main-31:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-merged_res-29:/drawable_suv9.jpg.flat",
+        "source": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-main-31:/drawable/suv9.jpg"
     },
     {
-        "merged": "C:\\Users\\matty\\.gradle\\daemon\\7.5\\com.example.voiture.app-merged_res-29:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\matty\\.gradle\\daemon\\7.5\\com.example.voiture.app-main-31:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-merged_res-29:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-main-31:/drawable-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.example.voiture.app-merged_res-29:/layout_activity_suv.xml.flat",
-        "source": "com.example.voiture.app-main-31:/layout/activity_suv.xml"
+        "merged": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-merged_res-29:/xml_data_extraction_rules.xml.flat",
+        "source": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-main-31:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\matty\\.gradle\\daemon\\7.5\\com.example.voiture.app-merged_res-29:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\matty\\.gradle\\daemon\\7.5\\com.example.voiture.app-main-31:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-merged_res-29:/drawable_pickup6.jpg.flat",
+        "source": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-main-31:/drawable/pickup6.jpg"
     },
     {
-        "merged": "C:\\Users\\matty\\.gradle\\daemon\\7.5\\com.example.voiture.app-merged_res-29:\\layout_adapter_item.xml.flat",
-        "source": "C:\\Users\\matty\\.gradle\\daemon\\7.5\\com.example.voiture.app-main-31:\\layout\\adapter_item.xml"
+        "merged": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-merged_res-29:/drawable_cabriolet7.jpg.flat",
+        "source": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-main-31:/drawable/cabriolet7.jpg"
     },
     {
-        "merged": "C:\\Users\\matty\\.gradle\\daemon\\7.5\\com.example.voiture.app-merged_res-29:\\layout_item_detail.xml.flat",
-        "source": "C:\\Users\\matty\\.gradle\\daemon\\7.5\\com.example.voiture.app-main-31:\\layout\\item_detail.xml"
+        "merged": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-merged_res-29:/drawable_voiture1.jpg.flat",
+        "source": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-main-31:/drawable/voiture1.jpg"
     },
     {
-        "merged": "C:\\Users\\matty\\.gradle\\daemon\\7.5\\com.example.voiture.app-merged_res-29:\\layout_list_item_car.xml.flat",
-        "source": "C:\\Users\\matty\\.gradle\\daemon\\7.5\\com.example.voiture.app-main-31:\\layout\\list_item_car.xml"
+        "merged": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-merged_res-29:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-main-31:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\matty\\.gradle\\daemon\\7.5\\com.example.voiture.app-merged_res-29:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\matty\\.gradle\\daemon\\7.5\\com.example.voiture.app-main-31:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-merged_res-29:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-main-31:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\matty\\.gradle\\daemon\\7.5\\com.example.voiture.app-merged_res-29:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\matty\\.gradle\\daemon\\7.5\\com.example.voiture.app-main-31:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-merged_res-29:/drawable_pickup8.jpg.flat",
+        "source": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-main-31:/drawable/pickup8.jpg"
     },
     {
-        "merged": "C:\\Users\\matty\\.gradle\\daemon\\7.5\\com.example.voiture.app-merged_res-29:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\matty\\.gradle\\daemon\\7.5\\com.example.voiture.app-main-31:\\xml\\backup_rules.xml"
+        "merged": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-merged_res-29:/drawable_nouveaute3.jpg.flat",
+        "source": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-main-31:/drawable/nouveaute3.jpg"
     },
     {
-        "merged": "C:\\Users\\matty\\.gradle\\daemon\\7.5\\com.example.voiture.app-merged_res-29:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\matty\\.gradle\\daemon\\7.5\\com.example.voiture.app-main-31:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-merged_res-29:/drawable_pickup1.jpg.flat",
+        "source": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-main-31:/drawable/pickup1.jpg"
     },
     {
-        "merged": "C:\\Users\\matty\\.gradle\\daemon\\7.5\\com.example.voiture.app-merged_res-29:\\drawable_car1.jpg.flat",
-        "source": "C:\\Users\\matty\\.gradle\\daemon\\7.5\\com.example.voiture.app-main-31:\\drawable\\car1.jpg"
+        "merged": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-merged_res-29:/drawable_suv3.jpg.flat",
+        "source": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-main-31:/drawable/suv3.jpg"
     },
     {
-        "merged": "C:\\Users\\matty\\.gradle\\daemon\\7.5\\com.example.voiture.app-merged_res-29:\\mipmap-anydpi-v33_ic_launcher.xml.flat",
-        "source": "C:\\Users\\matty\\.gradle\\daemon\\7.5\\com.example.voiture.app-main-31:\\mipmap-anydpi-v33\\ic_launcher.xml"
+        "merged": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-merged_res-29:/drawable_cabriolet9.jpg.flat",
+        "source": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-main-31:/drawable/cabriolet9.jpg"
     },
     {
-        "merged": "C:\\Users\\matty\\.gradle\\daemon\\7.5\\com.example.voiture.app-merged_res-29:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\matty\\.gradle\\daemon\\7.5\\com.example.voiture.app-main-31:\\drawable\\ic_launcher_background.xml"
+        "merged": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-merged_res-29:/drawable_suv7.jpg.flat",
+        "source": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-main-31:/drawable/suv7.jpg"
+    },
+    {
+        "merged": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-merged_res-29:/drawable_nouveaute9.jpg.flat",
+        "source": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-main-31:/drawable/nouveaute9.jpg"
+    },
+    {
+        "merged": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-merged_res-29:/drawable_pickup5.jpg.flat",
+        "source": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-main-31:/drawable/pickup5.jpg"
+    },
+    {
+        "merged": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-merged_res-29:/drawable_nouveaute6r.jpg.flat",
+        "source": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-main-31:/drawable/nouveaute6r.jpg"
+    },
+    {
+        "merged": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-merged_res-29:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-main-31:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-merged_res-29:/drawable_cabriolet6.jpg.flat",
+        "source": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-main-31:/drawable/cabriolet6.jpg"
+    },
+    {
+        "merged": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-merged_res-29:/layout_item_detail.xml.flat",
+        "source": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-main-31:/layout/item_detail.xml"
+    },
+    {
+        "merged": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-merged_res-29:/drawable_nouveaute2.jpg.flat",
+        "source": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-main-31:/drawable/nouveaute2.jpg"
+    },
+    {
+        "merged": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-merged_res-29:/drawable_cabriolet3.jpeg.flat",
+        "source": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-main-31:/drawable/cabriolet3.jpeg"
+    },
+    {
+        "merged": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-merged_res-29:/drawable_suv4.jpg.flat",
+        "source": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-main-31:/drawable/suv4.jpg"
+    },
+    {
+        "merged": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-merged_res-29:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-main-31:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-merged_res-29:/drawable_pickup7.jpg.flat",
+        "source": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-main-31:/drawable/pickup7.jpg"
+    },
+    {
+        "merged": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-merged_res-29:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-main-31:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-merged_res-29:/xml_backup_rules.xml.flat",
+        "source": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-main-31:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-merged_res-29:/drawable_logo3.png.flat",
+        "source": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-main-31:/drawable/logo3.png"
+    },
+    {
+        "merged": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-merged_res-29:/drawable_pickup4.jpg.flat",
+        "source": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-main-31:/drawable/pickup4.jpg"
+    },
+    {
+        "merged": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-merged_res-29:/drawable_suv1.jpg.flat",
+        "source": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-main-31:/drawable/suv1.jpg"
+    },
+    {
+        "merged": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-merged_res-29:/drawable_cabriolet2.jpg.flat",
+        "source": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-main-31:/drawable/cabriolet2.jpg"
+    },
+    {
+        "merged": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-merged_res-29:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-main-31:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-merged_res-29:/drawable_nouveaute5.jpg.flat",
+        "source": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-main-31:/drawable/nouveaute5.jpg"
+    },
+    {
+        "merged": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-merged_res-29:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-main-31:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-merged_res-29:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-main-31:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-merged_res-29:/drawable_cabriolet5.jpg.flat",
+        "source": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-main-31:/drawable/cabriolet5.jpg"
+    },
+    {
+        "merged": "com.example.voiture.app-merged_res-29:/layout_activity_main.xml.flat",
+        "source": "com.example.voiture.app-main-31:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-merged_res-29:/drawable_suv5.jpg.flat",
+        "source": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-main-31:/drawable/suv5.jpg"
+    },
+    {
+        "merged": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-merged_res-29:/drawable_paypal.png.flat",
+        "source": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-main-31:/drawable/paypal.png"
+    },
+    {
+        "merged": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-merged_res-29:/mipmap-anydpi-v33_ic_launcher.xml.flat",
+        "source": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-main-31:/mipmap-anydpi-v33/ic_launcher.xml"
+    },
+    {
+        "merged": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-merged_res-29:/drawable_nouveaute8.jpg.flat",
+        "source": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-main-31:/drawable/nouveaute8.jpg"
+    },
+    {
+        "merged": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-merged_res-29:/drawable_nouveaute1.jpg.flat",
+        "source": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-main-31:/drawable/nouveaute1.jpg"
+    },
+    {
+        "merged": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-merged_res-29:/drawable_pickup3.jpg.flat",
+        "source": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-main-31:/drawable/pickup3.jpg"
+    },
+    {
+        "merged": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-merged_res-29:/drawable_paypal1.png.flat",
+        "source": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-main-31:/drawable/paypal1.png"
+    },
+    {
+        "merged": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-merged_res-29:/layout_activity_suv.xml.flat",
+        "source": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-main-31:/layout/activity_suv.xml"
+    },
+    {
+        "merged": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-merged_res-29:/drawable_cabriolet1.jpg.flat",
+        "source": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-main-31:/drawable/cabriolet1.jpg"
+    },
+    {
+        "merged": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-merged_res-29:/drawable_suv8.jpg.flat",
+        "source": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-main-31:/drawable/suv8.jpg"
+    },
+    {
+        "merged": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-merged_res-29:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-main-31:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-merged_res-29:/drawable_nouveaute4.jpg.flat",
+        "source": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-main-31:/drawable/nouveaute4.jpg"
+    },
+    {
+        "merged": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-merged_res-29:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-main-31:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-merged_res-29:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/home/lm103841/.gradle/daemon/7.5/com.example.voiture.app-main-31:/mipmap-hdpi/ic_launcher.webp"
     }
 ]
