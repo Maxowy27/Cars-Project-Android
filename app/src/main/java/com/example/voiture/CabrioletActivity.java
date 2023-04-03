@@ -29,7 +29,7 @@ public class CabrioletActivity extends AppCompatActivity {
         listView.setAdapter(adapterC);
 
         findViewById(R.id.buttonNouveaute).setOnClickListener(click -> {
-            Intent intent = new Intent(this, MainActivity.class);
+            Intent intent = new Intent(this, NouveauteActivity.class);
             startActivity(intent);
         });
 

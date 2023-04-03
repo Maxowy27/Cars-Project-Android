@@ -32,7 +32,7 @@ public class AllActivity extends AppCompatActivity {
 
 
         findViewById(R.id.buttonNouveaute).setOnClickListener(click -> {
-            Intent intent = new Intent(this, MainActivity.class);
+            Intent intent = new Intent(this, NouveauteActivity.class);
             startActivity(intent);
         });
 

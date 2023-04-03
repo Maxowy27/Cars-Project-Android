@@ -3105,6 +3105,7 @@ id line1
 id line3
 id linear
 id listMode
+id list_buyed
 id list_item
 id m3_side_sheet
 id marquee
@@ -3167,6 +3168,7 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
+id name
 id navigation_bar_item_active_indicator_view
 id navigation_bar_item_icon_container
 id navigation_bar_item_icon_view
@@ -3193,6 +3195,7 @@ id outward
 id overshoot
 id packed
 id parallax
+id param_button
 id parent
 id parentPanel
 id parentRelative
@@ -3213,6 +3216,7 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id return_button
 id reverseSawtooth
 id right
 id rightToLeft
@@ -3471,8 +3475,10 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_account
 layout activity_all
 layout activity_cabriolet
+layout activity_login
 layout activity_main
 layout activity_pickup
 layout activity_suv

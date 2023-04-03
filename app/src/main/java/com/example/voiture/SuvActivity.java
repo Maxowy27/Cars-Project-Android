@@ -8,8 +8,6 @@ import android.widget.ListView;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.SearchView;
 
-import java.util.ArrayList;
-
 public class SuvActivity extends AppCompatActivity implements ClickableActivity{
 
     private CarListAdapter adapterS;
@@ -32,7 +30,7 @@ public class SuvActivity extends AppCompatActivity implements ClickableActivity{
         listView.setAdapter(adapterS);
 
         findViewById(R.id.buttonNouveaute).setOnClickListener(click -> {
-            Intent intent = new Intent(this, MainActivity.class);
+            Intent intent = new Intent(this, NouveauteActivity.class);
             startActivity(intent);
         });
 

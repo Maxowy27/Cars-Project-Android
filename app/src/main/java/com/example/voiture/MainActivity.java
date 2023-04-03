@@ -1,101 +1,29 @@
 package com.example.voiture;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.SearchView;
-
-import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.widget.ListView;
+import android.widget.EditText;
 import android.widget.Toast;
 
-import java.util.ArrayList;
-import java.util.List;
+import androidx.appcompat.app.AppCompatActivity;
 
-public class MainActivity extends AppCompatActivity implements ClickableActivity {
+public class MainActivity extends AppCompatActivity {
 
-    private ListCar listN;
-    private CarListAdapter adapterN;
-    private ListView listView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_login);
 
-        AppCompatActivity activity = this;
-
-        //recup liste car nouveaute
-        listN = ListCar.getInstance();
-        listN.constructListNouveaute(this);
-
-        //recup liste car suv
-        //ListCar listS = ListCar.getInstance();
-        //listS.constructListSuv(this);
-
-        //recup liste car cabriolet
-        //ListCar listC = ListCar.getInstance();
-        //listC.constructListCabriolet(this);
-
-        //recup lsite car pick up
-        //ListCar listP = ListCar.getInstance();
-        //listP.constructListPickup(this);
-
-        //adapters
-        adapterN = new CarListAdapter(this,listN,null);
-        //CarListAdapter adapterS = new CarListAdapter(this,listS);
-        //CarListAdapter adapterC = new CarListAdapter(this,listC);
-        //CarListAdapter adapterP = new CarListAdapter(this,listP);
-
-        listView = (ListView) findViewById(R.id.car_listview);
-
-        listView.setAdapter(adapterN);
-
-        findViewById(R.id.buttonSuv).setOnClickListener(click -> {
-            Intent intent = new Intent(this, SuvActivity.class);
-            startActivity(intent);
-        });
-
-        findViewById(R.id.buttonCabriolet).setOnClickListener(click -> {
-            Intent intent = new Intent(this, CabrioletActivity.class);
-            startActivity(intent);
-        });
-
-        findViewById(R.id.buttonPickUp).setOnClickListener(click -> {
-            Intent intent = new Intent(this, PickupActivity.class);
-            startActivity(intent);
-        });
-
-        findViewById(R.id.buttonAll).setOnClickListener(click -> {
-            Intent intent = new Intent(this, AllActivity.class);
-            startActivity(intent);
-        });
-
-        initSearchWidgets();
-    }
-
-    private void initSearchWidgets(){
-        SearchView searchView = findViewById(R.id.search_box);
-        searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
-            @Override
-            public boolean onQueryTextSubmit(String query) {
-                return false;
+        findViewById(R.id.start).setOnClickListener(click -> {
+            String value = ((EditText)findViewById(R.id.name)).getText()+"";
+            if (value.length() !=0){
+                Intent intent = new Intent(this, NouveauteActivity.class);
+                intent.putExtra("name",value);
+                startActivity(intent);
             }
-
-            @Override
-            public boolean onQueryTextChange(String newText) {
-                adapterN.filterNouveaute(newText);
-                adapterN.notifyDataSetChanged();
-                return false;
+            else {
+                Toast.makeText(getApplicationContext(), "Saisir un nom SVP", Toast.LENGTH_SHORT).show();
             }
         });
-    }
-    @Override
-    public void onClickCar(Car item) {
-
-    }
-
-    @Override
-    public Context getContext() {
-        return null;
     }
 }

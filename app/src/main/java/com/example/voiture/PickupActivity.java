@@ -28,7 +28,7 @@ public class PickupActivity extends AppCompatActivity {
         listView.setAdapter(adapterP);
 
         findViewById(R.id.buttonNouveaute).setOnClickListener(click -> {
-            Intent intent = new Intent(this, MainActivity.class);
+            Intent intent = new Intent(this, NouveauteActivity.class);
             startActivity(intent);
         });
 
