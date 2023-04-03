@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_layout"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <LinearLayout
+    <RelativeLayout
+        android:id="@+id/relative_item"
         android:layout_width="match_parent"
-        android:layout_height="239dp"
-        android:background="@drawable/cabriolet2">
+        android:layout_height="239dp">
+
+        <ImageView
+            android:id="@+id/item_picture"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:src="@drawable/cabriolet2"/>
 
         <Button
             android:id="@+id/return_button"
@@ -17,7 +24,7 @@
             android:backgroundTint="#0CA4D3"
             android:text="" />
 
-    </LinearLayout>
+    </RelativeLayout>
 
 
     <LinearLayout
@@ -88,7 +95,7 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/buy_button"
+        android:id="@+id/Reserver"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textStyle="bold"
@@ -98,27 +105,7 @@
         android:layout_marginVertical="15dp"/>
 
     <TextView
-        android:id="@+id/brand"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textStyle="bold"
-        android:layout_marginStart="20dp"
-        android:text="Marque -"
-        android:textSize="16sp"
-        android:layout_marginVertical="5dp"/>
-
-    <TextView
-        android:id="@+id/model"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textStyle="bold"
-        android:layout_marginStart="20dp"
-        android:text="Modèle -"
-        android:textSize="16sp"
-        android:layout_marginVertical="5dp"/>
-
-    <TextView
-        android:id="@+id/year"
+        android:id="@+id/item_year"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textStyle="bold"
@@ -128,7 +115,7 @@
         android:layout_marginVertical="5dp"/>
 
     <TextView
-        android:id="@+id/km"
+        android:id="@+id/item_km"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textStyle="bold"
@@ -138,7 +125,7 @@
         android:layout_marginVertical="5dp"/>
 
     <TextView
-        android:id="@+id/gearBox"
+        android:id="@+id/item_gearBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textStyle="bold"
@@ -148,7 +135,7 @@
         android:layout_marginVertical="5dp"/>
 
     <TextView
-        android:id="@+id/energy"
+        android:id="@+id/item_energy"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textStyle="bold"
@@ -157,16 +144,68 @@
         android:textSize="16sp"
         android:layout_marginVertical="5dp"/>
 
-    <TextView
-        android:id="@+id/price"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textStyle="bold"
-        android:layout_marginStart="20dp"
-        android:text="Prix -"
-        android:textSize="16sp"
-        android:layout_marginVertical="5dp"/>
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical">
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Autre recommendation"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#650CA4D3"
+            android:gravity="left">
+
+            <ImageView
+                android:id="@+id/picture2"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/voiture1"
+                android:clickable="true"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/brand2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="17dp"
+                    android:text="Marque"/>
+                <TextView
+                    android:id="@+id/model2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Modèle"/>
+                <TextView
+                    android:id="@+id/price2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="20dp"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:text="Prix"/>
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
 
 
 

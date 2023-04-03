@@ -32,6 +32,8 @@ public class CarInfo extends AppCompatActivity implements Serializable {
 
         ImageView image = (ImageView) layoutItem.findViewById(R.id.item_picture);
 
+        //layoutItem.findViewById(R.id.item_picture).setBackground(car.getPicture());
+
 
         tvBrand.setText(car.getBrand());
         tvModel.setText(car.getModel());
@@ -42,5 +44,11 @@ public class CarInfo extends AppCompatActivity implements Serializable {
         tvPrice.setText(car.getPrice());
 
         image.setImageResource(car.getPicture());
+
+
+        TextView tvBrand2 = (TextView) layoutItem.findViewById(R.id.brand2);
+        TextView tvModel2 = (TextView) layoutItem.findViewById(R.id.model2);
+        TextView tvPrice2 = (TextView) layoutItem.findViewById(R.id.price2);
+        ImageView image2 = (ImageView) layoutItem.findViewById(R.id.picture2);
     }
 }

@@ -2952,6 +2952,7 @@ id bounceBoth
 id bounceEnd
 id bounceStart
 id brand
+id brand2
 id buttonAll
 id buttonCabriolet
 id buttonNouveaute
@@ -3143,6 +3144,7 @@ id message
 id middle
 id mini
 id model
+id model2
 id month_grid
 id month_navigation_bar
 id month_navigation_fragment_toggle
@@ -3211,16 +3213,19 @@ id pathRelative
 id peekHeight
 id percent
 id picture
+id picture2
 id pin
 id position
 id postLayout
 id pressed
 id price
+id price2
 id progress_circular
 id progress_horizontal
 id radio
 id ratio
 id rectangles
+id relative_item
 id return_button
 id reverseSawtooth
 id right

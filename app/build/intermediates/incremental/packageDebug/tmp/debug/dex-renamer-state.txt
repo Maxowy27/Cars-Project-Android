@@ -1,9 +1,9 @@
-#Mon Apr 03 23:27:25 CEST 2023
-base.2=C\:\\Users\\matty\\Documents\\TP-androidStudio\\Cars-Project-Android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\9\\classes.dex
+#Tue Apr 04 01:06:16 CEST 2023
+base.2=C\:\\Users\\maxow\\AndroidStudioProjects\\Cars-Project-Android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\9\\classes.dex
 path.2=9/classes.dex
-base.1=C\:\\Users\\matty\\Documents\\TP-androidStudio\\Cars-Project-Android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.1=C\:\\Users\\maxow\\AndroidStudioProjects\\Cars-Project-Android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 path.1=0/classes.dex
-base.0=C\:\\Users\\matty\\Documents\\TP-androidStudio\\Cars-Project-Android\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.0=C\:\\Users\\maxow\\AndroidStudioProjects\\Cars-Project-Android\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex

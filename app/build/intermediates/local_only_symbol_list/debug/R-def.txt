@@ -60,6 +60,7 @@ drawable voiturefond2
 id Reserver
 id account_button
 id brand
+id brand2
 id buttonAll
 id buttonCabriolet
 id buttonNouveaute
@@ -83,9 +84,13 @@ id item_year
 id list_buyed
 id listview_acc
 id model
+id model2
 id name
 id picture
+id picture2
 id price
+id price2
+id relative_item
 id return_button
 id search_box
 id start
