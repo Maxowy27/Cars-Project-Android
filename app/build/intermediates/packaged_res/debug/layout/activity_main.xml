@@ -67,12 +67,13 @@
                 android:text="Pickup" />
 
             <Button
-                android:id="@+id/Cars4"
+                android:id="@+id/buttonAll"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="8dp"
                 android:backgroundTint="#0CA4D3"
-                android:text="Cars4" />
+                android:text="All" />
+
 
         </LinearLayout>
 
