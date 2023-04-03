@@ -12,10 +12,6 @@
         "source": "C:\\Users\\matty\\.gradle\\daemon\\7.5\\com.example.voiture.app-main-31:\\drawable\\nouveaute3.jpg"
     },
     {
-        "merged": "com.example.voiture.app-merged_res-29:/layout_activity_account.xml.flat",
-        "source": "com.example.voiture.app-main-31:/layout/activity_account.xml"
-    },
-    {
         "merged": "C:\\Users\\matty\\.gradle\\daemon\\7.5\\com.example.voiture.app-merged_res-29:\\drawable_suv6.jpg.flat",
         "source": "C:\\Users\\matty\\.gradle\\daemon\\7.5\\com.example.voiture.app-main-31:\\drawable\\suv6.jpg"
     },
@@ -48,6 +44,10 @@
         "source": "C:\\Users\\matty\\.gradle\\daemon\\7.5\\com.example.voiture.app-main-31:\\drawable\\suv3.jpg"
     },
     {
+        "merged": "C:\\Users\\matty\\.gradle\\daemon\\7.5\\com.example.voiture.app-merged_res-29:\\drawable_user.png.flat",
+        "source": "C:\\Users\\matty\\.gradle\\daemon\\7.5\\com.example.voiture.app-main-31:\\drawable\\user.png"
+    },
+    {
         "merged": "C:\\Users\\matty\\.gradle\\daemon\\7.5\\com.example.voiture.app-merged_res-29:\\drawable_logo3.png.flat",
         "source": "C:\\Users\\matty\\.gradle\\daemon\\7.5\\com.example.voiture.app-main-31:\\drawable\\logo3.png"
     },
@@ -76,12 +76,12 @@
         "source": "C:\\Users\\matty\\.gradle\\daemon\\7.5\\com.example.voiture.app-main-31:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\matty\\.gradle\\daemon\\7.5\\com.example.voiture.app-merged_res-29:\\layout_adapter_item.xml.flat",
-        "source": "C:\\Users\\matty\\.gradle\\daemon\\7.5\\com.example.voiture.app-main-31:\\layout\\adapter_item.xml"
-    },
-    {
         "merged": "C:\\Users\\matty\\.gradle\\daemon\\7.5\\com.example.voiture.app-merged_res-29:\\layout_activity_cabriolet.xml.flat",
         "source": "C:\\Users\\matty\\.gradle\\daemon\\7.5\\com.example.voiture.app-main-31:\\layout\\activity_cabriolet.xml"
+    },
+    {
+        "merged": "C:\\Users\\matty\\.gradle\\daemon\\7.5\\com.example.voiture.app-merged_res-29:\\layout_adapter_item.xml.flat",
+        "source": "C:\\Users\\matty\\.gradle\\daemon\\7.5\\com.example.voiture.app-main-31:\\layout\\adapter_item.xml"
     },
     {
         "merged": "C:\\Users\\matty\\.gradle\\daemon\\7.5\\com.example.voiture.app-merged_res-29:\\mipmap-xxhdpi_ic_launcher.webp.flat",
@@ -250,6 +250,14 @@
     {
         "merged": "C:\\Users\\matty\\.gradle\\daemon\\7.5\\com.example.voiture.app-merged_res-29:\\drawable_pickup2.jpg.flat",
         "source": "C:\\Users\\matty\\.gradle\\daemon\\7.5\\com.example.voiture.app-main-31:\\drawable\\pickup2.jpg"
+    },
+    {
+        "merged": "com.example.voiture.app-merged_res-29:/layout_activity_nouveaute.xml.flat",
+        "source": "com.example.voiture.app-main-31:/layout/activity_nouveaute.xml"
+    },
+    {
+        "merged": "C:\\Users\\matty\\.gradle\\daemon\\7.5\\com.example.voiture.app-merged_res-29:\\drawable_arrowleft.png.flat",
+        "source": "C:\\Users\\matty\\.gradle\\daemon\\7.5\\com.example.voiture.app-main-31:\\drawable\\arrowleft.png"
     },
     {
         "merged": "C:\\Users\\matty\\.gradle\\daemon\\7.5\\com.example.voiture.app-merged_res-29:\\drawable_cabriolet4.jpg.flat",
