@@ -3,46 +3,30 @@ package com.example.voiture;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.SearchView;
 
-import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ListView;
 
-public class NouveauteActivity extends AppCompatActivity implements ClickableActivity {
+public class NouveauteActivity extends AppCompatActivity {
 
-    private ListCar listN;
     private CarListAdapter adapterN;
-    private ListView listView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_nouveaute);
 
-        AppCompatActivity activity = this;
 
         //recup liste car nouveaute
-        listN = ListCar.getInstance();
+        ListCar listN = ListCar.getInstance();
         listN.constructListNouveaute(this);
 
-        //recup liste car suv
-        //ListCar listS = ListCar.getInstance();
-        //listS.constructListSuv(this);
-
-        //recup liste car cabriolet
-        //ListCar listC = ListCar.getInstance();
-        //listC.constructListCabriolet(this);
-
-        //recup lsite car pick up
-        //ListCar listP = ListCar.getInstance();
-        //listP.constructListPickup(this);
 
         //adapters
-        adapterN = new CarListAdapter(this,listN,null);
-        //CarListAdapter adapterS = new CarListAdapter(this,listS);
-        //CarListAdapter adapterC = new CarListAdapter(this,listC);
-        //CarListAdapter adapterP = new CarListAdapter(this,listP);
+        adapterN = new CarListAdapter(this, listN);
 
-        listView = (ListView) findViewById(R.id.car_listview);
+
+        ListView listView = findViewById(R.id.car_listview);
 
         listView.setAdapter(adapterN);
 
@@ -74,6 +58,7 @@ public class NouveauteActivity extends AppCompatActivity implements ClickableAct
         initSearchWidgets();
     }
 
+    //filtrage searchBar
     private void initSearchWidgets(){
         SearchView searchView = findViewById(R.id.search_box);
         searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
@@ -89,14 +74,5 @@ public class NouveauteActivity extends AppCompatActivity implements ClickableAct
                 return false;
             }
         });
-    }
-    @Override
-    public void onClickCar(Car item) {
-
-    }
-
-    @Override
-    public Context getContext() {
-        return null;
     }
 }

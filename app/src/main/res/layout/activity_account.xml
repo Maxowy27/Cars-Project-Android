@@ -18,7 +18,8 @@
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="8dp"
             android:backgroundTint="#0CA4D3"
-            />
+            android:text="@string/back"
+            android:textColor="#263238" />
 
     </LinearLayout>
 
@@ -32,19 +33,21 @@
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:background="@drawable/coldface"
-            />
+            tools:ignore="ImageContrastCheck"
+            android:contentDescription="@string/profil_picture" />
 
         <ImageView
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:background="@drawable/shavedice"
-            />
+            tools:ignore="ImageContrastCheck"
+            android:contentDescription="@string/emoji" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Maxime"
-            android:textSize="30dp"
+            android:text="@string/name"
+            android:textSize="30sp"
             android:layout_marginHorizontal="30dp"
             android:textColor="@color/black"/>
 
@@ -64,7 +67,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="25sp"
-            android:text="Listes des réservations"
+            android:text="@string/listes_des_reservations"
             android:textColor="@color/black"
             android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
             android:layout_marginHorizontal="15dp"

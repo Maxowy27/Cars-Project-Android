@@ -14,13 +14,12 @@ import java.util.ArrayList;
 
 public class CarListAdapter extends BaseAdapter {
 
-    private ListCar mListC;
+    private final ListCar mListC;
     private final Context mContext;
-    private LayoutInflater mInflater;
-    private ClickableActivity activity;
+    private final LayoutInflater mInflater;
 
-    public CarListAdapter(Context context, ListCar aListC, ClickableActivity activity) {
-        this.activity = activity;
+
+    public CarListAdapter(Context context, ListCar aListC) {
         mContext = context;
         mListC = aListC;
         mInflater = LayoutInflater.from(context);
@@ -119,6 +118,42 @@ public class CarListAdapter extends BaseAdapter {
         System.out.println(mListC.list);
         notifyDataSetChanged();
     }
+
+    @Override
+    public View getView(int position, View convertView, ViewGroup parent) {
+        LinearLayout layoutItem;
+
+        if (convertView == null){
+            layoutItem = (LinearLayout) mInflater.inflate(R.layout.adapter_item,parent,false);
+        } else {
+            layoutItem = (LinearLayout) convertView;
+        }
+
+        //on recup les textview du layout
+        TextView tvBrand = layoutItem.findViewById(R.id.brand);
+        TextView tvModel = layoutItem.findViewById(R.id.model);
+        TextView tvPrice = layoutItem.findViewById(R.id.price);
+
+        ImageView image = layoutItem.findViewById(R.id.picture);
+
+        //on remplie les valeurs
+        tvBrand.setText(mListC.get(position).getBrand());
+        tvModel.setText(mListC.get(position).getModel());
+        tvPrice.setText(mListC.get(position).getPrice());
+
+        image.setImageResource(mListC.get(position).getPicture());
+
+
+        image.setOnClickListener(view -> {
+            Car car = mListC.get(position);
+            Intent intent = new Intent(mContext,CarInfo.class);
+            intent.putExtra("car", car);
+            mContext.startActivity(intent);
+        });
+
+        return layoutItem;
+    }
+
     @Override
     public int getCount() {
         return mListC.size();
@@ -133,74 +168,5 @@ public class CarListAdapter extends BaseAdapter {
     public long getItemId(int i) {
         return i;
     }
-
-    @Override
-    public View getView(int position, View convertView, ViewGroup parent) {
-        LinearLayout layoutItem;
-
-        if (convertView == null){
-            layoutItem = (LinearLayout) mInflater.inflate(R.layout.adapter_item,parent,false);
-        } else {
-            layoutItem = (LinearLayout) convertView;
-        }
-
-        //on recup les textview du layout
-        TextView tvBrand = (TextView) layoutItem.findViewById(R.id.brand);
-        TextView tvModel = (TextView) layoutItem.findViewById(R.id.model);
-        //TextView tvYear = (TextView) layoutItem.findViewById(R.id.year);
-        //TextView tvKm = (TextView) layoutItem.findViewById(R.id.km);
-        //TextView tvGearBox = (TextView) layoutItem.findViewById(R.id.gearBox);
-        //TextView tvEnergy = (TextView) layoutItem.findViewById(R.id.energy);
-        TextView tvPrice = (TextView) layoutItem.findViewById(R.id.price);
-
-        ImageView image = (ImageView) layoutItem.findViewById(R.id.picture);
-
-        //on remplie les valeurs
-        tvBrand.setText(mListC.get(position).getBrand());
-        tvModel.setText(mListC.get(position).getModel());
-        //tvYear.setText(mListC.get(position).getYear());
-        //tvKm.setText(mListC.get(position).getKm());
-        //tvGearBox.setText(mListC.get(position).getGearBox());
-        //tvEnergy.setText(mListC.get(position).getEnergy());
-        tvPrice.setText(mListC.get(position).getPrice());
-
-        image.setImageResource(mListC.get(position).getPicture());
-
-
-        image.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Car car = mListC.get(position);
-                Intent intent = new Intent(mContext,CarInfo.class);
-                intent.putExtra("car", car);
-                mContext.startActivity(intent);
-            }
-        });
-
-        //layoutItem.setOnClickListener(v -> activity.onClickCar(mListC.get(position)));
-
-
-        return layoutItem;
-
-    }
-/*
-    private ArrayList<CarListAdapter> mListListener = new ArrayList<CarListAdapter>();
-
-    public void addListener(CarListAdapterListener aListener) {
-        mListListener.add((CarListAdapter) aListener);
-    }
-
-    private void sendListener(Car item, int position){
-        MainActivity activity1 = (MainActivity) g
-        for(int i = mListListener.size()-1; i >= 0; i--) {
-            mListListener.get(i).ici
-        }
-    }
-
-
-    public interface CarListAdapterListener{
-        public void onClickCar(Car item, int position);
-    }
-*/
 
 }

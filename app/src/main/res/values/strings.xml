@@ -1,3 +1,30 @@
 <resources>
     <string name="app_name">voiture</string>
+    <string name="profil_picture">profil_picture</string>
+    <string name="emoji">emoji</string>
+    <string name="name" />
+    <string name="listes_des_reservations">Listes des réservations</string>
+    <string name="back">retour</string>
+    <string name="rechercher_un_produit">Rechercher un produit</string>
+    <string name="logo">logo</string>
+    <string name="nouveaute">Nouveauté</string>
+    <string name="cabriolet">Cabriolet</string>
+    <string name="pickup">Pickup</string>
+    <string name="suv">SUV</string>
+    <string name="compte">compte</string>
+    <string name="all">Tout</string>
+    <string name="entrez_votre_nom">Entrez votre nom</string>
+    <string name="connexion">Connexion</string>
+    <string name="euro">€</string>
+    <string name="image">image</string>
+    <string name="marque">Marque</string>
+    <string name="model">Modele</string>
+    <string name="prix">Prix</string>
+    <string name="paypal">paypal</string>
+    <string name="paiment_securise_avec_paypal">Paiment sécurisé avec PayPal</string>
+    <string name="anne_modele">Année-modèle</string>
+    <string name="reserver">reserver</string>
+    <string name="kilometrage">Kilométrage -</string>
+    <string name="boite_de_vitesse">Boite de vitesse -</string>
+    <string name="carburant">Carburant -</string>
 </resources>

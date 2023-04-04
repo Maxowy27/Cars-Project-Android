@@ -9,21 +9,19 @@ import androidx.appcompat.widget.SearchView;
 
 public class PickupActivity extends AppCompatActivity {
     private CarListAdapter adapterP;
-    private ListView listView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pickup);
 
-        AppCompatActivity activity = this;
-
         //recup liste car suv
         ListCar listP = ListCar.getInstance();
         listP.constructListPickup(this);
 
-        adapterP = new CarListAdapter(this,listP,null);
+        adapterP = new CarListAdapter(this,listP);
 
-        listView = (ListView) findViewById(R.id.carPickup_listview);
+        ListView listView = findViewById(R.id.carPickup_listview);
 
         listView.setAdapter(adapterP);
 
@@ -55,6 +53,7 @@ public class PickupActivity extends AppCompatActivity {
         initSearchWidgets();
     }
 
+    //filtrage searchBar
     private void initSearchWidgets(){
         SearchView searchView = findViewById(R.id.search_box);
         searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {

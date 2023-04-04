@@ -1,6 +1,6 @@
 package com.example.voiture;
 
-import android.content.Context;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ListView;
@@ -8,24 +8,23 @@ import android.widget.ListView;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.SearchView;
 
-public class SuvActivity extends AppCompatActivity implements ClickableActivity{
+public class SuvActivity extends AppCompatActivity {
 
     private CarListAdapter adapterS;
-    private ListView listView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_suv);
 
-        AppCompatActivity activity = this;
-
         //recup liste car suv
         ListCar listS = ListCar.getInstance();
         listS.constructListSuv(this);
 
-        adapterS = new CarListAdapter(this,listS,null);
+        //adapter
+        adapterS = new CarListAdapter(this,listS);
 
-        listView = (ListView) findViewById(R.id.carSuv_listview);
+        ListView listView = findViewById(R.id.carSuv_listview);
 
         listView.setAdapter(adapterS);
 
@@ -57,17 +56,7 @@ public class SuvActivity extends AppCompatActivity implements ClickableActivity{
         initSearchWidgets();
     }
 
-
-    @Override
-    public void onClickCar(Car item) {
-
-    }
-
-    @Override
-    public Context getContext() {
-        return null;
-    }
-
+    //filtrage searchBar
     private void initSearchWidgets() {
         androidx.appcompat.widget.SearchView searchView = findViewById(R.id.search_box);
         searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {

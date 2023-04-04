@@ -1,32 +1,19 @@
 package com.example.voiture;
 
+import androidx.annotation.NonNull;
 import java.io.Serializable;
 
 public class Car implements Serializable {
-    private String brand;
-    private String model;
-    private String year;
-    private String km;
-    private String gearBox;
-    private String energy;
-    private String price;
-    private int picture;
+    private final String brand;
+    private final String model;
+    private final String year;
+    private final String km;
+    private final String gearBox;
+    private final String energy;
+    private final String price;
+    private final int picture;
 
-
-    public Car(String brand, String model, String year, String km, String gearBox, String energy, String price) {
-        this.brand = brand;
-        this.model = model;
-        this.year = year;
-        this.km = km;
-        this.gearBox = gearBox;
-        this.energy = energy;
-        this.price = price;
-    }
-
-    public int getPicture() {
-        return picture;
-    }
-
+    //constructeur
     public Car(String brand, String model, String year, String km, String gearBox, String energy, String price, int picture) {
         this.brand = brand;
         this.model = model;
@@ -38,6 +25,9 @@ public class Car implements Serializable {
         this.picture = picture;
     }
 
+    public int getPicture() {
+        return picture;
+    }
     public String getBrand() {
         return brand;
     }
@@ -66,7 +56,8 @@ public class Car implements Serializable {
         return price;
     }
 
-    @Override
+
+    @NonNull
     public String toString() {
         return "Car{" +
                 "brand='" + brand + '\'' +

@@ -10,115 +10,18 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import java.util.ArrayList;
-
 public class CarListReservation extends BaseAdapter {
 
-    private ListCar mListC;
+    private final ListCar mListC;
     private final Context mContext;
-    private LayoutInflater mInflater;
-    private ClickableActivity activity;
+    private final LayoutInflater mInflater;
 
-    public CarListReservation(Context context, ListCar aListC, ClickableActivity activity) {
-        this.activity = activity;
+    public CarListReservation(Context context, ListCar aListC) {
         mContext = context;
         mListC = aListC;
         mInflater = LayoutInflater.from(context);
     }
 
-    public void filterNouveaute(String query) {
-        mListC.list.clear();
-        ArrayList<Car> filteredCars = new ArrayList<>();
-        ArrayList<Car> allCars = mListC.getNouveaute(mContext);
-        if (query.isEmpty()) {
-            filteredCars.addAll(allCars);
-        } else {
-            for (Car car : allCars) {
-                if (car.getBrand().toLowerCase().contains(query.toLowerCase())) {
-                    filteredCars.add(car);
-                }
-            }
-        }
-        mListC.list.clear();
-        mListC.list.addAll(filteredCars);
-        System.out.println(mListC.list);
-        notifyDataSetChanged();
-    }
-    public void filterPickup(String query) {
-        mListC.list.clear();
-        ArrayList<Car> filteredCars = new ArrayList<>();
-        ArrayList<Car> allCars = mListC.getPickup(mContext);
-        if (query.isEmpty()) {
-            filteredCars.addAll(allCars);
-        } else {
-            for (Car car : allCars) {
-                if (car.getBrand().toLowerCase().contains(query.toLowerCase())) {
-                    filteredCars.add(car);
-                }
-            }
-        }
-        mListC.list.clear();
-        mListC.list.addAll(filteredCars);
-        System.out.println(mListC.list);
-        notifyDataSetChanged();
-    }
-
-    public void filterCabriolet(String query) {
-        mListC.list.clear();
-        ArrayList<Car> filteredCars = new ArrayList<>();
-        ArrayList<Car> allCars = mListC.getCabriolet(mContext);
-        if (query.isEmpty()) {
-            filteredCars.addAll(allCars);
-        } else {
-            for (Car car : allCars) {
-                if (car.getBrand().toLowerCase().contains(query.toLowerCase())) {
-                    filteredCars.add(car);
-                }
-            }
-        }
-        mListC.list.clear();
-        mListC.list.addAll(filteredCars);
-        System.out.println(mListC.list);
-        notifyDataSetChanged();
-    }
-
-    public void filterSuv(String query) {
-        mListC.list.clear();
-        ArrayList<Car> filteredCars = new ArrayList<>();
-        ArrayList<Car> allCars = mListC.getSuv(mContext);
-        if (query.isEmpty()) {
-            filteredCars.addAll(allCars);
-        } else {
-            for (Car car : allCars) {
-                if (car.getBrand().toLowerCase().contains(query.toLowerCase())) {
-                    filteredCars.add(car);
-                }
-            }
-        }
-        mListC.list.clear();
-        mListC.list.addAll(filteredCars);
-        System.out.println(mListC.list);
-        notifyDataSetChanged();
-    }
-
-    public void filterAll(String query) {
-        mListC.list.clear();
-        ArrayList<Car> filteredCars = new ArrayList<>();
-        ArrayList<Car> allCars = mListC.getAllCars(mContext);
-        if (query.isEmpty()) {
-            filteredCars.addAll(allCars);
-        } else {
-            for (Car car : allCars) {
-                if (car.getBrand().toLowerCase().contains(query.toLowerCase())) {
-                    filteredCars.add(car);
-                }
-            }
-        }
-        mListC.list.clear();
-        mListC.list.addAll(filteredCars);
-        System.out.println(mListC.list);
-        notifyDataSetChanged();
-    }
     @Override
     public int getCount() {
         return mListC.size();
@@ -145,36 +48,24 @@ public class CarListReservation extends BaseAdapter {
         }
 
         //on recup les textview du layout
-        TextView tvBrand = (TextView) layoutItem.findViewById(R.id.res_brand);
-        TextView tvModel = (TextView) layoutItem.findViewById(R.id.res_model);
-        //TextView tvYear = (TextView) layoutItem.findViewById(R.id.year);
-        //TextView tvKm = (TextView) layoutItem.findViewById(R.id.km);
-        //TextView tvGearBox = (TextView) layoutItem.findViewById(R.id.gearBox);
-        //TextView tvEnergy = (TextView) layoutItem.findViewById(R.id.energy);
-        TextView tvPrice = (TextView) layoutItem.findViewById(R.id.res_price);
-
-        ImageView image = (ImageView) layoutItem.findViewById(R.id.res_picture);
+        TextView tvBrand = layoutItem.findViewById(R.id.res_brand);
+        TextView tvModel = layoutItem.findViewById(R.id.res_model);
+        TextView tvPrice = layoutItem.findViewById(R.id.res_price);
+        ImageView image = layoutItem.findViewById(R.id.res_picture);
 
         //on remplie les valeurs
         tvBrand.setText(mListC.get(position).getBrand());
         tvModel.setText(mListC.get(position).getModel());
-        //tvYear.setText(mListC.get(position).getYear());
-        //tvKm.setText(mListC.get(position).getKm());
-        //tvGearBox.setText(mListC.get(position).getGearBox());
-        //tvEnergy.setText(mListC.get(position).getEnergy());
         tvPrice.setText(mListC.get(position).getPrice());
 
         image.setImageResource(mListC.get(position).getPicture());
 
 
-        image.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Car car = mListC.get(position);
-                Intent intent = new Intent(mContext,CarInfo.class);
-                intent.putExtra("car", car);
-                mContext.startActivity(intent);
-            }
+        image.setOnClickListener(view -> {
+            Car car = mListC.get(position);
+            Intent intent = new Intent(mContext,CarInfo.class);
+            intent.putExtra("car", car);
+            mContext.startActivity(intent);
         });
 
         //layoutItem.setOnClickListener(v -> activity.onClickCar(mListC.get(position)));

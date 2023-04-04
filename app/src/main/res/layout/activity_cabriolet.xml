@@ -24,14 +24,16 @@
                 android:id="@+id/search_box"
                 android:layout_width="170dp"
                 android:layout_height="wrap_content"
-                android:hint="Rechercher un produit"
+                android:hint="@string/rechercher_un_produit"
                 android:inputType="text" />
 
             <ImageView
                 android:layout_width="75dp"
                 android:layout_height="49dp"
                 android:layout_marginHorizontal="0dp"
-                android:src="@drawable/logo3" />
+                android:src="@drawable/logo3"
+                tools:ignore="ImageContrastCheck"
+                android:contentDescription="@string/logo" />
 
             <Button
                 android:id="@+id/account_button"
@@ -39,8 +41,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="100dp"
                 android:backgroundTint="#0CA4D3"
+                android:text="@string/compte"
 
-                />
+                android:textColor="#263238" />
 
         </LinearLayout>
 
@@ -49,9 +52,9 @@
             android:layout_height="wrap_content"
             android:fillViewport="true" >
             <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="50dp">
-
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                tools:ignore="VisualLintBounds">
 
 
                 <Button
@@ -60,31 +63,39 @@
                     android:layout_height="wrap_content"
                     android:layout_marginHorizontal="8dp"
                     android:backgroundTint="#0CA4D3"
-                    android:text="Nouveauté" />
+                    android:text="@string/nouveaute"
+                    android:textColor="#263238"
+                    style="?android:attr/buttonBarButtonStyle" />
 
                 <Button
                     android:id="@+id/buttonSuv"
+                    style="?android:attr/buttonBarButtonStyle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginHorizontal="8dp"
                     android:backgroundTint="#0CA4D3"
-                    android:text="SUV" />
+                    android:text="@string/suv"
+                    android:textColor="#1A237E" />
 
                 <Button
                     android:id="@+id/buttonPickUp"
+                    style="?android:attr/buttonBarButtonStyle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginHorizontal="8dp"
                     android:backgroundTint="#0CA4D3"
-                    android:text="Pick Up" />
+                    android:text="@string/pickup"
+                    android:textColor="#1A237E" />
 
                 <Button
                     android:id="@+id/buttonAll"
+                    style="?android:attr/buttonBarButtonStyle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginHorizontal="8dp"
                     android:backgroundTint="#0CA4D3"
-                    android:text="Tout" />
+                    android:text="@string/all"
+                    android:textColor="#1A237E" />
 
 
             </LinearLayout>
@@ -94,7 +105,7 @@
     <ListView
         android:id="@+id/carCabriolet_listview"
         android:layout_width="match_parent"
-        android:layout_height="10dp"
+        android:layout_height="0dp"
         android:layout_weight="2"
         android:divider="@android:color/transparent"
         android:dividerHeight="10dp"
