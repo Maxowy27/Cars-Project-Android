@@ -23,10 +23,12 @@ anim btn_radio_to_off_mtrl_ring_outer_path_animation
 anim btn_radio_to_on_mtrl_dot_group_animation
 anim btn_radio_to_on_mtrl_ring_outer_animation
 anim btn_radio_to_on_mtrl_ring_outer_path_animation
+anim cardisplay
 anim design_bottom_sheet_slide_in
 anim design_bottom_sheet_slide_out
 anim design_snackbar_in
 anim design_snackbar_out
+anim down
 anim fragment_fast_out_extra_slow_in
 anim linear_indeterminate_line1_head_interpolator
 anim linear_indeterminate_line1_tail_interpolator
@@ -41,6 +43,9 @@ anim m3_side_sheet_slide_out
 anim mtrl_bottom_sheet_slide_in
 anim mtrl_bottom_sheet_slide_out
 anim mtrl_card_lowers_interpolator
+anim right
+anim small
+anim top
 animator design_appbar_state_list_animator
 animator design_fab_hide_motion_spec
 animator design_fab_show_motion_spec
@@ -2985,6 +2990,7 @@ id clip_vertical
 id clockwise
 id closest
 id collapseActionView
+id commande_geo
 id compress
 id confirm_button
 id constraint
@@ -3113,6 +3119,7 @@ id listMode
 id list_buyed
 id list_item
 id listview_acc
+id location
 id m3_side_sheet
 id marquee
 id masked
@@ -3331,6 +3338,9 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textViewAdresse
+id textViewLatitude
+id textViewLongitude
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3488,6 +3498,7 @@ layout abc_tooltip
 layout activity_account
 layout activity_all
 layout activity_cabriolet
+layout activity_location
 layout activity_login
 layout activity_nouveaute
 layout activity_pickup

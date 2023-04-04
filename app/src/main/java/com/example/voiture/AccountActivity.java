@@ -15,6 +15,13 @@ public class AccountActivity extends AppCompatActivity {
         findViewById(R.id.return_button).setOnClickListener(click -> {
             Intent intent = new Intent(this, AllActivity.class);
             startActivity(intent);
+            overridePendingTransition(R.anim.down, R.anim.small);
+        });
+
+        findViewById(R.id.location).setOnClickListener(click -> {
+            Intent intent = new Intent(this, GeoLocalisation.class);
+            startActivity(intent);
+            overridePendingTransition(R.anim.right, R.anim.small);
         });
 
         CarListReservation adapterR = new CarListReservation(this, listR);

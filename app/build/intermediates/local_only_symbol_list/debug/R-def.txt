@@ -1,5 +1,10 @@
 R_DEF: Internal format may change without notice
 local
+anim cardisplay
+anim down
+anim right
+anim small
+anim top
 color black
 color purple_200
 color purple_500
@@ -70,6 +75,7 @@ id carCabriolet_listview
 id carPickup_listview
 id carSuv_listview
 id car_listview
+id commande_geo
 id euro
 id item_brand
 id item_energy
@@ -82,6 +88,7 @@ id item_price
 id item_year
 id list_buyed
 id listview_acc
+id location
 id model
 id name
 id picture
@@ -94,9 +101,13 @@ id res_price
 id return_button
 id search_box
 id start
+id textViewAdresse
+id textViewLatitude
+id textViewLongitude
 layout activity_account
 layout activity_all
 layout activity_cabriolet
+layout activity_location
 layout activity_login
 layout activity_nouveaute
 layout activity_pickup

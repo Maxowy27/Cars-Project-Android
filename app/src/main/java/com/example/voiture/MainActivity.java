@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(this, NouveauteActivity.class);
                 intent.putExtra("name",value);
                 startActivity(intent);
+                overridePendingTransition(R.anim.right, R.anim.small);
             }
             else {
                 Toast.makeText(getApplicationContext(), "Saisir un nom SVP", Toast.LENGTH_SHORT).show();

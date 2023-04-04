@@ -22,6 +22,16 @@
             android:textSize="10sp"
             tools:ignore="SmallSp,TextSizeCheck" />
 
+        <Button
+            android:id="@+id/location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="8dp"
+            android:backgroundTint="#0CA4D3"
+            android:text="location"
+            android:layout_marginStart="200dp"
+            />
+
     </LinearLayout>
 
     <LinearLayout

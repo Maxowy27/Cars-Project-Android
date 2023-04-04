@@ -27,4 +27,9 @@
     <string name="kilometrage">Kilométrage -</string>
     <string name="boite_de_vitesse">Boite de vitesse -</string>
     <string name="carburant">Carburant -</string>
+    <string name="location">location</string>
+    <string name="adresse">Adresse</string>
+    <string name="latitude">latitude</string>
+    <string name="longitude">longitude</string>
+    <string name="cold_wheels">COLD WHEELS</string>
 </resources>

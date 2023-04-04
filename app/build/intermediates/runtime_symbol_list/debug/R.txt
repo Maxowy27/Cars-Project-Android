@@ -22,10 +22,12 @@ int anim btn_radio_to_off_mtrl_ring_outer_path_animation 0x7f010014
 int anim btn_radio_to_on_mtrl_dot_group_animation 0x7f010015
 int anim btn_radio_to_on_mtrl_ring_outer_animation 0x7f010016
 int anim btn_radio_to_on_mtrl_ring_outer_path_animation 0x7f010017
+int anim cardisplay 0x7f01002a
 int anim design_bottom_sheet_slide_in 0x7f010018
 int anim design_bottom_sheet_slide_out 0x7f010019
 int anim design_snackbar_in 0x7f01001a
 int anim design_snackbar_out 0x7f01001b
+int anim down 0x7f01002b
 int anim fragment_fast_out_extra_slow_in 0x7f01001c
 int anim linear_indeterminate_line1_head_interpolator 0x7f01001d
 int anim linear_indeterminate_line1_tail_interpolator 0x7f01001e
@@ -40,6 +42,9 @@ int anim m3_side_sheet_slide_out 0x7f010026
 int anim mtrl_bottom_sheet_slide_in 0x7f010027
 int anim mtrl_bottom_sheet_slide_out 0x7f010028
 int anim mtrl_card_lowers_interpolator 0x7f010029
+int anim right 0x7f01002c
+int anim small 0x7f01002d
+int anim top 0x7f01002e
 int animator design_appbar_state_list_animator 0x7f020000
 int animator design_fab_hide_motion_spec 0x7f020001
 int animator design_fab_show_motion_spec 0x7f020002
@@ -2984,6 +2989,7 @@ int id clip_vertical 0x7f080082
 int id clockwise 0x7f080083
 int id closest 0x7f080084
 int id collapseActionView 0x7f080085
+int id commande_geo 0x7f080210
 int id compress 0x7f080086
 int id confirm_button 0x7f080087
 int id constraint 0x7f080088
@@ -3112,6 +3118,7 @@ int id listMode 0x7f080102
 int id list_buyed 0x7f080103
 int id list_item 0x7f080104
 int id listview_acc 0x7f080105
+int id location 0x7f080211
 int id m3_side_sheet 0x7f080106
 int id marquee 0x7f080107
 int id masked 0x7f080108
@@ -3330,6 +3337,9 @@ int id textSpacerNoButtons 0x7f0801dc
 int id textSpacerNoTitle 0x7f0801dd
 int id textStart 0x7f0801de
 int id textTop 0x7f0801df
+int id textViewAdresse 0x7f080212
+int id textViewLatitude 0x7f080213
+int id textViewLongitude 0x7f080214
 int id text_input_end_icon 0x7f0801e0
 int id text_input_error_icon 0x7f0801e1
 int id text_input_start_icon 0x7f0801e2
@@ -3487,6 +3497,7 @@ int layout abc_tooltip 0x7f0b001b
 int layout activity_account 0x7f0b001c
 int layout activity_all 0x7f0b001d
 int layout activity_cabriolet 0x7f0b001e
+int layout activity_location 0x7f0b0073
 int layout activity_login 0x7f0b001f
 int layout activity_nouveaute 0x7f0b0020
 int layout activity_pickup 0x7f0b0021

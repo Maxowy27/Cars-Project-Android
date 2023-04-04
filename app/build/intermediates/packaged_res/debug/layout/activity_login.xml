@@ -9,6 +9,26 @@
     android:orientation="vertical"
     android:gravity="center">
 
+    <LinearLayout
+        android:layout_marginTop="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:background="#850CA4D3"
+        android:layout_marginBottom="150dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="COLD WHEELS"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:textSize="45dp"
+            android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
+            />
+
+    </LinearLayout>
 
     <EditText
         android:id="@+id/name"
