@@ -31,7 +31,8 @@
         android:layout_marginTop="10dp"
         android:backgroundTint="#0CA4D3"
         android:text="@string/connexion"
-        />
+
+        android:textColor="#4E342E" />
 
 
 

@@ -36,12 +36,15 @@
 
             <Button
                 android:id="@+id/account_button"
-                android:layout_width="50dp"
+                android:layout_width="80dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="100dp"
                 android:backgroundTint="#0CA4D3"
                 android:text="@string/compte"
-                android:textColor="#263238" />
+                android:textSize="10sp"
+
+                android:textColor="#263238"
+                tools:ignore="SmallSp,VisualLintBounds" />
         </LinearLayout>
 
         <HorizontalScrollView

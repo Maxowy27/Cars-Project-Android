@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -37,12 +36,15 @@
 
             <Button
                 android:id="@+id/account_button"
-                android:layout_width="50dp"
+                android:layout_width="80dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="100dp"
                 android:backgroundTint="#0CA4D3"
                 android:text="@string/compte"
-                android:textColor="#263238" />
+                android:textSize="10sp"
+
+                android:textColor="#263238"
+                tools:ignore="SmallSp,VisualLintBounds" />
         </LinearLayout>
 
         <HorizontalScrollView
@@ -62,7 +64,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginHorizontal="8dp"
                     android:backgroundTint="#0CA4D3"
-                    android:text="@string/nouveaute"
+                    android:text="@string/suv"
                     android:textColor="#1A237E" />
 
                 <Button

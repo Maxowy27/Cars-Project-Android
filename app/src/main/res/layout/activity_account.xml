@@ -13,12 +13,14 @@
 
         <Button
             android:id="@+id/return_button"
-            android:layout_width="50dp"
+            android:layout_width="75dp"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="8dp"
             android:backgroundTint="#0CA4D3"
             android:text="@string/back"
-            android:textColor="#263238" />
+            android:textColor="#263238"
+            android:textSize="10sp"
+            tools:ignore="SmallSp,TextSizeCheck" />
 
     </LinearLayout>
 
