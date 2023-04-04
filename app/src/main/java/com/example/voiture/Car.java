@@ -65,4 +65,18 @@ public class Car implements Serializable {
     public String getPrice() {
         return price;
     }
+
+    @Override
+    public String toString() {
+        return "Car{" +
+                "brand='" + brand + '\'' +
+                ", model='" + model + '\'' +
+                ", year='" + year + '\'' +
+                ", km='" + km + '\'' +
+                ", gearBox='" + gearBox + '\'' +
+                ", energy='" + energy + '\'' +
+                ", price='" + price + '\'' +
+                ", picture=" + picture +
+                '}';
+    }
 }

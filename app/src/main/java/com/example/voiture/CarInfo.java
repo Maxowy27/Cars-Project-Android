@@ -1,7 +1,10 @@
 package com.example.voiture;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -50,5 +53,13 @@ public class CarInfo extends AppCompatActivity implements Serializable {
         TextView tvModel2 = (TextView) layoutItem.findViewById(R.id.model2);
         TextView tvPrice2 = (TextView) layoutItem.findViewById(R.id.price2);
         ImageView image2 = (ImageView) layoutItem.findViewById(R.id.picture2);
+
+        Button addButton = findViewById(R.id.Reserver);
+        addButton.setOnClickListener(v -> {
+            Intent intent = new Intent(this, AccountActivity.class);
+            intent.putExtra("car", car);
+            startActivity(intent);
+        });
+
     }
 }

@@ -24,7 +24,7 @@ public class ListCar {
 
     static ListCar Instance = null;
 
-    private ListCar(){
+    ListCar(){
         list = new ArrayList<Car>();
     }
 
@@ -325,5 +325,12 @@ public class ListCar {
             throw new RuntimeException(e);
         }
         return list;
+    }
+
+    @Override
+    public String toString() {
+        return "ListCar{" +
+                "list=" + list +
+                '}';
     }
 }
