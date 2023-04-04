@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_layout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/relative_item"
+        android:layout_width="match_parent"
+        android:layout_height="239dp">
+
+        <ImageView
+            android:id="@+id/item_picture"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:src="@drawable/cabriolet2"/>
+
+        <Button
+            android:id="@+id/return_button"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="8dp"
+            android:backgroundTint="#0CA4D3"
+            android:text="" />
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginVertical="10dp">
+
+        <TextView
+            android:id="@+id/item_brand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:text="Marque"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/item_model"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="Modèle"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/item_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:text="Prix"
+            android:layout_marginStart="15dp"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:src="@drawable/paypal1" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#993DB7D8"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Paiment sécurisé avec PayPal" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Reserver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginHorizontal="8dp"
+        android:backgroundTint="#0CA4D3"
+        android:text="Réserver"
+        android:layout_marginVertical="15dp"/>
+
+    <TextView
+        android:id="@+id/item_year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginStart="20dp"
+        android:text="Année-modèle -"
+        android:textSize="16sp"
+        android:layout_marginVertical="5dp"/>
+
+    <TextView
+        android:id="@+id/item_km"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginStart="20dp"
+        android:text="Kilométrage -"
+        android:textSize="16sp"
+        android:layout_marginVertical="5dp"/>
+
+    <TextView
+        android:id="@+id/item_gearBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginStart="20dp"
+        android:text="Boite de vitesse -"
+        android:textSize="16sp"
+        android:layout_marginVertical="5dp"/>
+
+    <TextView
+        android:id="@+id/item_energy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginStart="20dp"
+        android:text="Carburant -"
+        android:textSize="16sp"
+        android:layout_marginVertical="5dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Autre recommendation"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#650CA4D3"
+            android:gravity="left">
+
+            <ImageView
+                android:id="@+id/picture2"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/voiture1"
+                android:clickable="true"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/brand2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="17dp"
+                    android:text="Marque"/>
+                <TextView
+                    android:id="@+id/model2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Modèle"/>
+                <TextView
+                    android:id="@+id/price2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="20dp"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:text="Prix"/>
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,101 @@
+﻿[
+    {
+        "id": "1",
+        "brand": "Renault",
+        "model": "Megane 3",
+        "year": "2011",
+        "km": "212500",
+        "gearbox": "Manuelle",
+        "energy": "Diesel",
+        "price": "4490",
+        "photo": "nouveaute1"
+    },
+    {
+        "id": "2",
+        "brand": "Peugeot",
+        "model": "307 Break",
+        "year": "2002",
+        "km": "207000",
+        "gearbox": "Manuelle",
+        "energy": "Essence",
+        "price": "1300",
+        "photo": "nouveaute2"
+    },
+    {
+        "id": "3",
+        "brand": "Peugeot",
+        "model": "208",
+        "year": "2021",
+        "km": "26000",
+        "gearbox": "Automatique",
+        "energy": "Electrique",
+        "price": "26000",
+        "photo": "nouveaute3"
+    },
+    {
+        "id": "4",
+        "brand": "Alfa Romeo",
+        "model": "147",
+        "year": "2008",
+        "km": "205000",
+        "gearbox": "Manuelle",
+        "energy": "Diesel",
+        "price": "1200",
+        "photo": "nouveaute4"
+    },
+    {
+        "id": "5",
+        "brand": "Fiat",
+        "model": "500",
+        "year": "1970",
+        "km": "38000",
+        "gearbox": "Manuelle",
+        "energy": "Essence",
+        "price": "13000",
+        "photo": "nouveaute5"
+    },
+    {
+        "id": "6",
+        "brand": "Citroën",
+        "model": "C4 coupé",
+        "year": "2007",
+        "km": "185000",
+        "gearbox": "Manuelle",
+        "energy": "Essence",
+        "price": "2200",
+        "photo": "nouveaute6r"
+    },
+    {
+        "id": "7",
+        "brand": "Mercedes",
+        "model": "Classe A",
+        "year": "2016",
+        "km": "93000",
+        "gearbox": "Automatique",
+        "energy": "Diesel",
+        "price": "21300",
+        "photo": "nouveaute7"
+    },
+    {
+        "id": "8",
+        "brand": "Mercedes",
+        "model": "Classe C",
+        "year": "2016",
+        "km": "82999",
+        "gearbox": "Automatique",
+        "energy": "Diesel",
+        "price": "20900",
+        "photo": "nouveaute8"
+    },
+    {
+        "id": "9",
+        "brand": "BMW",
+        "model": "Série 3",
+        "year": "2018",
+        "km": "106181",
+        "gearbox": "Automatique",
+        "energy": "Diesel",
+        "price": "24999",
+        "photo": "nouveaute9"
+    }
+]

@@ -3226,6 +3226,10 @@ id radio
 id ratio
 id rectangles
 id relative_item
+id res_brand
+id res_model
+id res_picture
+id res_price
 id return_button
 id reverseSawtooth
 id right
@@ -3493,6 +3497,7 @@ layout activity_nouveaute
 layout activity_pickup
 layout activity_suv
 layout adapter_item
+layout adapter_item2
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog

@@ -6,101 +6,101 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="24"
-8-->C:\Users\maxow\AndroidStudioProjects\Cars-Project-Android\app\src\main\AndroidManifest.xml
+8-->/home/si112114/Documents/Cars-Project-Android/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="33" />
-9-->C:\Users\maxow\AndroidStudioProjects\Cars-Project-Android\app\src\main\AndroidManifest.xml
+9-->/home/si112114/Documents/Cars-Project-Android/app/src/main/AndroidManifest.xml
 10
 11    <permission
-11-->[androidx.core:core:1.9.0] C:\Users\maxow\.gradle\caches\transforms-3\ec4f76f6c0c02de8ba18086e7bd9baf5\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+11-->[androidx.core:core:1.9.0] /home/si112114/.gradle/caches/transforms-3/ec4f76f6c0c02de8ba18086e7bd9baf5/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
 12        android:name="com.example.voiture.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-12-->[androidx.core:core:1.9.0] C:\Users\maxow\.gradle\caches\transforms-3\ec4f76f6c0c02de8ba18086e7bd9baf5\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+12-->[androidx.core:core:1.9.0] /home/si112114/.gradle/caches/transforms-3/ec4f76f6c0c02de8ba18086e7bd9baf5/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
 13        android:protectionLevel="signature" />
-13-->[androidx.core:core:1.9.0] C:\Users\maxow\.gradle\caches\transforms-3\ec4f76f6c0c02de8ba18086e7bd9baf5\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+13-->[androidx.core:core:1.9.0] /home/si112114/.gradle/caches/transforms-3/ec4f76f6c0c02de8ba18086e7bd9baf5/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
 14
 15    <uses-permission android:name="com.example.voiture.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-15-->[androidx.core:core:1.9.0] C:\Users\maxow\.gradle\caches\transforms-3\ec4f76f6c0c02de8ba18086e7bd9baf5\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
-15-->[androidx.core:core:1.9.0] C:\Users\maxow\.gradle\caches\transforms-3\ec4f76f6c0c02de8ba18086e7bd9baf5\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+15-->[androidx.core:core:1.9.0] /home/si112114/.gradle/caches/transforms-3/ec4f76f6c0c02de8ba18086e7bd9baf5/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.9.0] /home/si112114/.gradle/caches/transforms-3/ec4f76f6c0c02de8ba18086e7bd9baf5/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
 16
 17    <application
-17-->C:\Users\maxow\AndroidStudioProjects\Cars-Project-Android\app\src\main\AndroidManifest.xml:5:5-31:19
+17-->/home/si112114/Documents/Cars-Project-Android/app/src/main/AndroidManifest.xml:5:5-31:19
 18        android:allowBackup="true"
-18-->C:\Users\maxow\AndroidStudioProjects\Cars-Project-Android\app\src\main\AndroidManifest.xml:6:9-35
+18-->/home/si112114/Documents/Cars-Project-Android/app/src/main/AndroidManifest.xml:6:9-35
 19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-19-->[androidx.core:core:1.9.0] C:\Users\maxow\.gradle\caches\transforms-3\ec4f76f6c0c02de8ba18086e7bd9baf5\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+19-->[androidx.core:core:1.9.0] /home/si112114/.gradle/caches/transforms-3/ec4f76f6c0c02de8ba18086e7bd9baf5/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
 20        android:dataExtractionRules="@xml/data_extraction_rules"
-20-->C:\Users\maxow\AndroidStudioProjects\Cars-Project-Android\app\src\main\AndroidManifest.xml:7:9-65
+20-->/home/si112114/Documents/Cars-Project-Android/app/src/main/AndroidManifest.xml:7:9-65
 21        android:debuggable="true"
 22        android:extractNativeLibs="false"
 23        android:fullBackupContent="@xml/backup_rules"
-23-->C:\Users\maxow\AndroidStudioProjects\Cars-Project-Android\app\src\main\AndroidManifest.xml:8:9-54
+23-->/home/si112114/Documents/Cars-Project-Android/app/src/main/AndroidManifest.xml:8:9-54
 24        android:icon="@mipmap/ic_launcher"
-24-->C:\Users\maxow\AndroidStudioProjects\Cars-Project-Android\app\src\main\AndroidManifest.xml:9:9-43
+24-->/home/si112114/Documents/Cars-Project-Android/app/src/main/AndroidManifest.xml:9:9-43
 25        android:label="@string/app_name"
-25-->C:\Users\maxow\AndroidStudioProjects\Cars-Project-Android\app\src\main\AndroidManifest.xml:10:9-41
+25-->/home/si112114/Documents/Cars-Project-Android/app/src/main/AndroidManifest.xml:10:9-41
 26        android:supportsRtl="true"
-26-->C:\Users\maxow\AndroidStudioProjects\Cars-Project-Android\app\src\main\AndroidManifest.xml:11:9-35
+26-->/home/si112114/Documents/Cars-Project-Android/app/src/main/AndroidManifest.xml:11:9-35
 27        android:testOnly="true"
 28        android:theme="@style/Theme.Voiture" >
-28-->C:\Users\maxow\AndroidStudioProjects\Cars-Project-Android\app\src\main\AndroidManifest.xml:12:9-45
+28-->/home/si112114/Documents/Cars-Project-Android/app/src/main/AndroidManifest.xml:12:9-45
 29        <activity android:name="com.example.voiture.CarInfo" />
-29-->C:\Users\maxow\AndroidStudioProjects\Cars-Project-Android\app\src\main\AndroidManifest.xml:14:9-45
-29-->C:\Users\maxow\AndroidStudioProjects\Cars-Project-Android\app\src\main\AndroidManifest.xml:14:19-42
+29-->/home/si112114/Documents/Cars-Project-Android/app/src/main/AndroidManifest.xml:14:9-45
+29-->/home/si112114/Documents/Cars-Project-Android/app/src/main/AndroidManifest.xml:14:19-42
 30        <activity android:name="com.example.voiture.SuvActivity" />
-30-->C:\Users\maxow\AndroidStudioProjects\Cars-Project-Android\app\src\main\AndroidManifest.xml:15:9-48
-30-->C:\Users\maxow\AndroidStudioProjects\Cars-Project-Android\app\src\main\AndroidManifest.xml:15:19-46
+30-->/home/si112114/Documents/Cars-Project-Android/app/src/main/AndroidManifest.xml:15:9-48
+30-->/home/si112114/Documents/Cars-Project-Android/app/src/main/AndroidManifest.xml:15:19-46
 31        <activity android:name="com.example.voiture.CabrioletActivity" />
-31-->C:\Users\maxow\AndroidStudioProjects\Cars-Project-Android\app\src\main\AndroidManifest.xml:16:9-54
-31-->C:\Users\maxow\AndroidStudioProjects\Cars-Project-Android\app\src\main\AndroidManifest.xml:16:19-52
+31-->/home/si112114/Documents/Cars-Project-Android/app/src/main/AndroidManifest.xml:16:9-54
+31-->/home/si112114/Documents/Cars-Project-Android/app/src/main/AndroidManifest.xml:16:19-52
 32        <activity android:name="com.example.voiture.PickupActivity" />
-32-->C:\Users\maxow\AndroidStudioProjects\Cars-Project-Android\app\src\main\AndroidManifest.xml:17:9-51
-32-->C:\Users\maxow\AndroidStudioProjects\Cars-Project-Android\app\src\main\AndroidManifest.xml:17:19-49
+32-->/home/si112114/Documents/Cars-Project-Android/app/src/main/AndroidManifest.xml:17:9-51
+32-->/home/si112114/Documents/Cars-Project-Android/app/src/main/AndroidManifest.xml:17:19-49
 33        <activity android:name="com.example.voiture.AllActivity" />
-33-->C:\Users\maxow\AndroidStudioProjects\Cars-Project-Android\app\src\main\AndroidManifest.xml:18:9-48
-33-->C:\Users\maxow\AndroidStudioProjects\Cars-Project-Android\app\src\main\AndroidManifest.xml:18:19-46
+33-->/home/si112114/Documents/Cars-Project-Android/app/src/main/AndroidManifest.xml:18:9-48
+33-->/home/si112114/Documents/Cars-Project-Android/app/src/main/AndroidManifest.xml:18:19-46
 34        <activity android:name="com.example.voiture.NouveauteActivity" />
-34-->C:\Users\maxow\AndroidStudioProjects\Cars-Project-Android\app\src\main\AndroidManifest.xml:19:9-54
-34-->C:\Users\maxow\AndroidStudioProjects\Cars-Project-Android\app\src\main\AndroidManifest.xml:19:19-52
+34-->/home/si112114/Documents/Cars-Project-Android/app/src/main/AndroidManifest.xml:19:9-54
+34-->/home/si112114/Documents/Cars-Project-Android/app/src/main/AndroidManifest.xml:19:19-52
 35        <activity android:name="com.example.voiture.AccountActivity" />
-35-->C:\Users\maxow\AndroidStudioProjects\Cars-Project-Android\app\src\main\AndroidManifest.xml:20:9-52
-35-->C:\Users\maxow\AndroidStudioProjects\Cars-Project-Android\app\src\main\AndroidManifest.xml:20:19-50
+35-->/home/si112114/Documents/Cars-Project-Android/app/src/main/AndroidManifest.xml:20:9-52
+35-->/home/si112114/Documents/Cars-Project-Android/app/src/main/AndroidManifest.xml:20:19-50
 36        <activity
-36-->C:\Users\maxow\AndroidStudioProjects\Cars-Project-Android\app\src\main\AndroidManifest.xml:22:9-30:20
+36-->/home/si112114/Documents/Cars-Project-Android/app/src/main/AndroidManifest.xml:22:9-30:20
 37            android:name="com.example.voiture.MainActivity"
-37-->C:\Users\maxow\AndroidStudioProjects\Cars-Project-Android\app\src\main\AndroidManifest.xml:23:13-41
+37-->/home/si112114/Documents/Cars-Project-Android/app/src/main/AndroidManifest.xml:23:13-41
 38            android:exported="true" >
-38-->C:\Users\maxow\AndroidStudioProjects\Cars-Project-Android\app\src\main\AndroidManifest.xml:24:13-36
+38-->/home/si112114/Documents/Cars-Project-Android/app/src/main/AndroidManifest.xml:24:13-36
 39            <intent-filter>
-39-->C:\Users\maxow\AndroidStudioProjects\Cars-Project-Android\app\src\main\AndroidManifest.xml:25:13-29:29
+39-->/home/si112114/Documents/Cars-Project-Android/app/src/main/AndroidManifest.xml:25:13-29:29
 40                <action android:name="android.intent.action.MAIN" />
-40-->C:\Users\maxow\AndroidStudioProjects\Cars-Project-Android\app\src\main\AndroidManifest.xml:26:17-69
-40-->C:\Users\maxow\AndroidStudioProjects\Cars-Project-Android\app\src\main\AndroidManifest.xml:26:25-66
+40-->/home/si112114/Documents/Cars-Project-Android/app/src/main/AndroidManifest.xml:26:17-69
+40-->/home/si112114/Documents/Cars-Project-Android/app/src/main/AndroidManifest.xml:26:25-66
 41
 42                <category android:name="android.intent.category.LAUNCHER" />
-42-->C:\Users\maxow\AndroidStudioProjects\Cars-Project-Android\app\src\main\AndroidManifest.xml:28:17-77
-42-->C:\Users\maxow\AndroidStudioProjects\Cars-Project-Android\app\src\main\AndroidManifest.xml:28:27-74
+42-->/home/si112114/Documents/Cars-Project-Android/app/src/main/AndroidManifest.xml:28:17-77
+42-->/home/si112114/Documents/Cars-Project-Android/app/src/main/AndroidManifest.xml:28:27-74
 43            </intent-filter>
 44        </activity>
 45
 46        <provider
-46-->[androidx.emoji2:emoji2:1.2.0] C:\Users\maxow\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+46-->[androidx.emoji2:emoji2:1.2.0] /home/si112114/.gradle/caches/transforms-3/791b39fe68826e8543c46f2d7f8b152e/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
 47            android:name="androidx.startup.InitializationProvider"
-47-->[androidx.emoji2:emoji2:1.2.0] C:\Users\maxow\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+47-->[androidx.emoji2:emoji2:1.2.0] /home/si112114/.gradle/caches/transforms-3/791b39fe68826e8543c46f2d7f8b152e/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
 48            android:authorities="com.example.voiture.androidx-startup"
-48-->[androidx.emoji2:emoji2:1.2.0] C:\Users\maxow\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+48-->[androidx.emoji2:emoji2:1.2.0] /home/si112114/.gradle/caches/transforms-3/791b39fe68826e8543c46f2d7f8b152e/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
 49            android:exported="false" >
-49-->[androidx.emoji2:emoji2:1.2.0] C:\Users\maxow\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+49-->[androidx.emoji2:emoji2:1.2.0] /home/si112114/.gradle/caches/transforms-3/791b39fe68826e8543c46f2d7f8b152e/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
 50            <meta-data
-50-->[androidx.emoji2:emoji2:1.2.0] C:\Users\maxow\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+50-->[androidx.emoji2:emoji2:1.2.0] /home/si112114/.gradle/caches/transforms-3/791b39fe68826e8543c46f2d7f8b152e/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
 51                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-51-->[androidx.emoji2:emoji2:1.2.0] C:\Users\maxow\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+51-->[androidx.emoji2:emoji2:1.2.0] /home/si112114/.gradle/caches/transforms-3/791b39fe68826e8543c46f2d7f8b152e/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
 52                android:value="androidx.startup" />
-52-->[androidx.emoji2:emoji2:1.2.0] C:\Users\maxow\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+52-->[androidx.emoji2:emoji2:1.2.0] /home/si112114/.gradle/caches/transforms-3/791b39fe68826e8543c46f2d7f8b152e/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
 53            <meta-data
-53-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\maxow\.gradle\caches\transforms-3\86041ab2b0d2128b301212662b855cec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+53-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/si112114/.gradle/caches/transforms-3/86041ab2b0d2128b301212662b855cec/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
 54                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-54-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\maxow\.gradle\caches\transforms-3\86041ab2b0d2128b301212662b855cec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+54-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/si112114/.gradle/caches/transforms-3/86041ab2b0d2128b301212662b855cec/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
 55                android:value="androidx.startup" />
-55-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\maxow\.gradle\caches\transforms-3\86041ab2b0d2128b301212662b855cec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+55-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/si112114/.gradle/caches/transforms-3/86041ab2b0d2128b301212662b855cec/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
 56        </provider>
 57    </application>
 58

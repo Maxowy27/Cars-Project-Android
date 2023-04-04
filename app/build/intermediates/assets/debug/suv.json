@@ -1,0 +1,101 @@
+﻿[
+    {
+        "id": "1",
+        "brand": "Renault",
+        "model": "Kadjar",
+        "year": "2019",
+        "km": "35854",
+        "gearbox": "Manuelle",
+        "energy": "Essence",
+        "price": "19990",
+        "photo": "suv1"
+    },
+    {
+        "id": "2",
+        "brand": "Peugeot",
+        "model": "2008",
+        "year": "2022",
+        "km": "4351",
+        "gearbox": "Manuelle",
+        "energy": "Essence",
+        "price": "26490",
+        "photo": "suv2"
+    },
+    {
+        "id": "3",
+        "brand": "Dacia",
+        "model": "Duster",
+        "year": "2022",
+        "km": "10",
+        "gearbox": "Automatique",
+        "energy": "Essence",
+        "price": "25370",
+        "photo": "suv3"
+    },
+    {
+        "id": "4",
+        "brand": "Nissan",
+        "model": "Juke",
+        "year": "2022",
+        "km": "29054",
+        "gearbox": "Manuelle",
+        "energy": "Essence",
+        "price": "19990",
+        "photo": "suv4"
+    },
+    {
+        "id": "5",
+        "brand": "Renault",
+        "model": "Koleos",
+        "year": "2015",
+        "km": "140500",
+        "gearbox": "Manuelle",
+        "energy": "Diesel",
+        "price": "10990",
+        "photo": "suv5"
+    },
+    {
+        "id": "6",
+        "brand": "Nissan",
+        "model": "Qashqai",
+        "year": "2022",
+        "km": "13515",
+        "gearbox": "Automatique",
+        "energy": "Essence",
+        "price": "30990",
+        "photo": "suv6"
+    },
+    {
+        "id": "7",
+        "brand": "Hyundai",
+        "model": "Kona",
+        "year": "2023",
+        "km": "8900",
+        "gearbox": "Automatique",
+        "energy": "Hybride",
+        "price": "31990",
+        "photo": "suv7"
+    },
+    {
+        "id": "8",
+        "brand": "Skoda",
+        "model": "Kamiq",
+        "year": "2022",
+        "km": "5000",
+        "gearbox": "Automatique",
+        "energy": "Essence",
+        "price": "29990",
+        "photo": "suv8"
+    },
+    {
+        "id": "9",
+        "brand": "Peugeot",
+        "model": "3008",
+        "year": "2022",
+        "km": "28758",
+        "gearbox": "Automatique",
+        "energy": "Diesel",
+        "price": "32790",
+        "photo": "suv9"
+    }
+]
