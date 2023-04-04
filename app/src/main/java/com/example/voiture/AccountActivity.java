@@ -6,7 +6,7 @@ import android.widget.ListView;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class AccountActivity extends AppCompatActivity {
-    private final ListCar listR = new ListCar();
+    private static ListCar listR = new ListCar();
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

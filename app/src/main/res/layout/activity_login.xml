@@ -23,7 +23,7 @@
             android:fontFamily="sans-serif-condensed-light"
             android:text="@string/cold_wheels"
             android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
-            android:textColor="#039BE5"
+            android:textColor="#80DEEA"
             android:textSize="45sp"
             android:textStyle="bold" />
 
