@@ -117,6 +117,7 @@ layout adapter_item2
 layout item_detail
 mipmap ic_launcher
 mipmap ic_launcher_round
+string adresse
 string all
 string anne_modele
 string app_name
@@ -124,6 +125,7 @@ string back
 string boite_de_vitesse
 string cabriolet
 string carburant
+string cold_wheels
 string compte
 string connexion
 string emoji
@@ -131,8 +133,11 @@ string entrez_votre_nom
 string euro
 string image
 string kilometrage
+string latitude
 string listes_des_reservations
+string location
 string logo
+string longitude
 string marque
 string model
 string name

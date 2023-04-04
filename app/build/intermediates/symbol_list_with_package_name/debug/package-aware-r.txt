@@ -3613,6 +3613,7 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
+string adresse
 string all
 string androidx_startup
 string anne_modele
@@ -3632,6 +3633,7 @@ string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
 string clear_text_end_icon_content_description
+string cold_wheels
 string compte
 string connexion
 string emoji
@@ -3647,8 +3649,11 @@ string icon_content_description
 string image
 string item_view_role_description
 string kilometrage
+string latitude
 string listes_des_reservations
+string location
 string logo
+string longitude
 string m3_sys_motion_easing_emphasized
 string m3_sys_motion_easing_emphasized_accelerate
 string m3_sys_motion_easing_emphasized_decelerate

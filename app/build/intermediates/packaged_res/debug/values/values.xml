@@ -8,6 +8,7 @@
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
     <item name="item_layout" type="id"/>
+    <string name="adresse">Adresse</string>
     <string name="all">Tout</string>
     <string name="anne_modele">Année-modèle</string>
     <string name="app_name">voiture</string>
@@ -15,6 +16,7 @@
     <string name="boite_de_vitesse">Boite de vitesse -</string>
     <string name="cabriolet">Cabriolet</string>
     <string name="carburant">Carburant -</string>
+    <string name="cold_wheels">COLD WHEELS</string>
     <string name="compte">compte</string>
     <string name="connexion">Connexion</string>
     <string name="emoji">emoji</string>
@@ -22,8 +24,11 @@
     <string name="euro">€</string>
     <string name="image">image</string>
     <string name="kilometrage">Kilométrage -</string>
+    <string name="latitude">latitude</string>
     <string name="listes_des_reservations">Listes des réservations</string>
+    <string name="location">location</string>
     <string name="logo">logo</string>
+    <string name="longitude">longitude</string>
     <string name="marque">Marque</string>
     <string name="model">Modele</string>
     <string name="name"/>

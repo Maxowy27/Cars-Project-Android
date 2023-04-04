@@ -20,17 +20,19 @@
             android:text="@string/back"
             android:textColor="#263238"
             android:textSize="10sp"
-            tools:ignore="SmallSp,TextSizeCheck" />
+            tools:ignore="SmallSp,TextSizeCheck"
+            style="?android:attr/buttonBarButtonStyle" />
 
         <Button
             android:id="@+id/location"
+            style="?android:attr/buttonBarButtonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="8dp"
-            android:backgroundTint="#0CA4D3"
-            android:text="location"
             android:layout_marginStart="200dp"
-            />
+            android:backgroundTint="#0CA4D3"
+            android:text="@string/location"
+            android:textColor="#1A237E" />
 
     </LinearLayout>
 

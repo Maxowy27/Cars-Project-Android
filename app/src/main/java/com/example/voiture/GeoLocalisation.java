@@ -34,12 +34,13 @@ public class GeoLocalisation extends AppCompatActivity {
     private TextView longitude;
     private TextView Adresse;
 
-    Geocoder geocoder = new Geocoder(this, Locale.getDefault());
-
     LocationListener ecouteurGPS = new LocationListener() {
         @Override
         public void onLocationChanged(Location localisation)
         {
+            System.out.println("onLocationChanged XXXXXXXXXXXXXXX");
+            Geocoder geocoder = new Geocoder(getApplicationContext(), Locale.getDefault());
+
             Toast.makeText(getApplicationContext(), fournisseur + " localisation", Toast.LENGTH_SHORT).show();
 
             Log.d("GPS", "localisation : " + localisation.toString());
@@ -47,8 +48,6 @@ public class GeoLocalisation extends AppCompatActivity {
             Log.d("GPS", coordonnees);
             String autres = String.format("Vitesse : %f - Altitude : %f - Cap : %f\n", localisation.getSpeed(), localisation.getAltitude(), localisation.getBearing());
             Log.d("GPS", autres);
-            //String timestamp = String.format("Timestamp : %d\n", localisation.getTime());
-            //Log.d("GPS", "timestamp : " + timestamp);
             SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
             Date date = new Date(localisation.getTime());
             Log.d("GPS", sdf.format(date));
@@ -76,7 +75,7 @@ public class GeoLocalisation extends AppCompatActivity {
                 Log.e("GPS", "erreur aucune adresse !");
             } else {
                 Address adresse = adresses.get(0);
-                ArrayList<String> addressFragments = new ArrayList<String>();
+                ArrayList<String> addressFragments = new ArrayList<>();
 
                 String strAdresse = adresse.getAddressLine(0) + ", " + adresse.getLocality();
                 Log.d("GPS", "adresse : " + strAdresse);
@@ -108,16 +107,12 @@ public class GeoLocalisation extends AppCompatActivity {
             switch(status)
             {
                 case LocationProvider.AVAILABLE:
-                    Toast.makeText(getApplicationContext(), fournisseur + " état disponible", Toast.LENGTH_SHORT).show();
                     break;
                 case LocationProvider.OUT_OF_SERVICE:
-                    Toast.makeText(getApplicationContext(), fournisseur + " état indisponible", Toast.LENGTH_SHORT).show();
                     break;
                 case LocationProvider.TEMPORARILY_UNAVAILABLE:
-                    Toast.makeText(getApplicationContext(), fournisseur + " état temporairement indisponible", Toast.LENGTH_SHORT).show();
                     break;
                 default:
-                    Toast.makeText(getApplicationContext(), fournisseur + " état : " + status, Toast.LENGTH_SHORT).show();
             }
         }
     };
@@ -128,9 +123,11 @@ public class GeoLocalisation extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_location);
 
-        latitude = (TextView) findViewById(R.id.textViewLatitude);
-        longitude = (TextView) findViewById(R.id.textViewLongitude);
-        Adresse = (TextView) findViewById(R.id.textViewAdresse);
+        latitude = findViewById(R.id.textViewLatitude);
+        longitude = findViewById(R.id.textViewLongitude);
+        Adresse = findViewById(R.id.textViewAdresse);
+
+
 
         Log.d("GPS", "onCreate");
 
@@ -170,6 +167,7 @@ public class GeoLocalisation extends AppCompatActivity {
 
             fournisseur = locationManager.getBestProvider(criteres, true);
             Log.d("GPS", "fournisseur : " + fournisseur);
+
         }
 
         if (fournisseur != null)

@@ -2,26 +2,65 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/commande_geo">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/commande_geo"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".GeoLocalisation">
 
+
+    <Button
+        android:id="@+id/return_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="8dp"
+        android:backgroundTint="#0CA4D3"
+        android:text="retour"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#0CA4D3"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginVertical="50dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MA LOCALISATION"
+            android:textSize="30dp"
+            android:fontFamily="sans-serif-condensed"
+            android:textColor="@color/white"
+            />
+
+
+
+    </LinearLayout>
 
     <TextView
         android:id="@+id/textViewLatitude"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/latitude"/>
+        android:textSize="20dp"
+        android:text="latitude"
+        android:layout_marginVertical="10dp"/>
 
     <TextView
         android:id="@+id/textViewLongitude"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/longitude"/>
+        android:textSize="20dp"
+        android:text="longitude"
+        android:layout_marginVertical="10dp"/>
 
     <TextView
         android:id="@+id/textViewAdresse"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/adresse"/>
+        android:textSize="20dp"
+        android:text="Adresse"
+        android:layout_marginVertical="10dp"/>
 
 </LinearLayout>
-
