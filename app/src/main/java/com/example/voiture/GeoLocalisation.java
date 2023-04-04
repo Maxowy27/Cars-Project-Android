@@ -2,6 +2,7 @@ package com.example.voiture;
 
 import android.Manifest;
 import android.content.Context;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.location.Address;
 import android.location.Geocoder;
@@ -127,7 +128,11 @@ public class GeoLocalisation extends AppCompatActivity {
         longitude = findViewById(R.id.textViewLongitude);
         Adresse = findViewById(R.id.textViewAdresse);
 
-
+        findViewById(R.id.return_button).setOnClickListener(click -> {
+            Intent intent = new Intent(this, AccountActivity.class);
+            startActivity(intent);
+            overridePendingTransition(R.anim.down, R.anim.small);
+        });
 
         Log.d("GPS", "onCreate");
 
